@@ -1,14 +1,14 @@
-// ============================================================
-// Arena.jsx — Grid + Units + Towers renderer
-// ============================================================
-
 import React, { useState } from "react";
 
-const COLS = 18;
-const ROWS = 10;
+const COLS   = 18;
+const ROWS   = 10;
 const RIVER_Y = 4;
 
-const CELL_SIZE = 52; // px
+// ── Dynamic cell size: fills the available arena space ────
+// We compute this at render time from the container, but as a
+// safe static default we use 46px so 18×46=828 and 10×46=460,
+// which comfortably fits a 1080p screen minus the header + sidebar.
+const CELL_SIZE = 46;
 
 export default function Arena({ gameState, onCellClick }) {
   const [hoverCol, setHoverCol] = useState(null);
@@ -16,12 +16,13 @@ export default function Arena({ gameState, onCellClick }) {
   if (!gameState) return null;
 
   const { units = [], players, riverY = RIVER_Y } = gameState;
+
   const allTowers = [
     ...(players?.human?.towers || []),
-    ...(players?.ai?.towers || [])
+    ...(players?.ai?.towers   || [])
   ];
 
-  // Build lookup: "x,y" → entity (unit or tower)
+  // ── Build cell-map: "x,y" → list of entities ──────────────
   const cellMap = {};
 
   allTowers.forEach(t => {
@@ -40,14 +41,24 @@ export default function Arena({ gameState, onCellClick }) {
   const gridH = ROWS * CELL_SIZE;
 
   return (
-    <div style={{ position: "relative", width: gridW, height: gridH, flexShrink: 0 }}>
-      {/* Grid cells */}
+    <div
+      className="arena-glow"
+      style={{
+        width:     gridW,
+        height:    gridH,
+        position:  "relative",
+        flexShrink: 0,
+        borderRadius: 10,
+        overflow: "hidden"
+      }}
+    >
+      {/* ── Grid cells ──────────────────────────────────────── */}
       {Array.from({ length: ROWS }).map((_, row) =>
         Array.from({ length: COLS }).map((_, col) => {
-          const isRiver    = row === riverY;
-          const isHuman    = row > riverY;
-          const isHovered  = hoverCol === col && isHuman;
-          const entities   = cellMap[`${col},${row}`] || [];
+          const isRiver   = row === riverY;
+          const isHuman   = row > riverY;
+          const isHovered = hoverCol === col && isHuman;
+          const entities  = cellMap[`${col},${row}`] || [];
 
           return (
             <div
@@ -55,36 +66,46 @@ export default function Arena({ gameState, onCellClick }) {
               onClick={() => isHuman && onCellClick(col)}
               onMouseEnter={() => setHoverCol(col)}
               onMouseLeave={() => setHoverCol(null)}
+              className={isHovered ? "cell-hover" : ""}
               style={{
-                position: "absolute",
-                left: col * CELL_SIZE,
-                top:  row * CELL_SIZE,
-                width:  CELL_SIZE,
-                height: CELL_SIZE,
+                position:     "absolute",
+                left:         col * CELL_SIZE,
+                top:          row * CELL_SIZE,
+                width:        CELL_SIZE,
+                height:       CELL_SIZE,
                 borderRight:  "1px solid var(--grid-line)",
                 borderBottom: "1px solid var(--grid-line)",
                 background: isRiver
                   ? "var(--river)"
                   : isHuman
-                    ? isHovered
-                      ? "rgba(59,130,246,0.12)"
-                      : "rgba(59,130,246,0.03)"
-                    : "rgba(239,68,68,0.03)",
-                cursor: isHuman ? "crosshair" : "default",
-                transition: "background 0.1s",
-                display: "flex",
-                alignItems: "center",
+                    ? "rgba(59,130,246,0.04)"
+                    : "rgba(239,68,68,0.04)",
+                display:        "flex",
+                alignItems:     "center",
                 justifyContent: "center",
-                flexWrap: "wrap",
-                gap: 2,
-                overflow: "hidden"
+                flexWrap:       "wrap",
+                gap:            2,
+                cursor: isHuman ? "crosshair" : "default",
+                transition:     "background 0.1s"
               }}
             >
               {/* River label */}
               {isRiver && col === 8 && (
-                <span style={{ fontSize: 9, color: "var(--accent)", opacity: 0.6, position: "absolute", letterSpacing: 2 }}>
-                  ～ RIVER ～
+                <span style={{
+                  fontSize:    8,
+                  color:       "var(--accent)",
+                  opacity:     0.55,
+                  letterSpacing: 2,
+                  pointerEvents: "none",
+                  userSelect:  "none"
+                }}>
+                  ~RIVER~
                 </span>
+              )}
+
+              {/* Deploy preview on hover */}
+              {isHuman && isHovered && entities.length === 0 && (
+                <div className="deploy-preview">⚔️</div>
               )}
 
               {/* Entities */}
@@ -96,66 +117,57 @@ export default function Arena({ gameState, onCellClick }) {
         })
       )}
 
-      {/* Column hover indicator */}
+      {/* ── Column hover highlight ───────────────────────────── */}
       {hoverCol !== null && (
         <div style={{
-          position: "absolute",
-          left: hoverCol * CELL_SIZE,
-          top: 0,
-          width: CELL_SIZE,
-          height: gridH,
-          background: "rgba(0,212,255,0.04)",
-          pointerEvents: "none",
-          borderLeft: "1px dashed rgba(0,212,255,0.2)",
-          borderRight: "1px dashed rgba(0,212,255,0.2)"
+          position:       "absolute",
+          left:           hoverCol * CELL_SIZE,
+          top:            0,
+          width:          CELL_SIZE,
+          height:         gridH,
+          background:     "rgba(0,212,255,0.05)",
+          pointerEvents:  "none",
+          borderLeft:     "1px dashed rgba(0,212,255,0.18)",
+          borderRight:    "1px dashed rgba(0,212,255,0.18)"
         }} />
       )}
     </div>
   );
 }
 
-// ---- Single cell entity token ------------------------------
-
+// ── Single entity token ────────────────────────────────────
 function EntityToken({ entity }) {
-  const isHuman  = entity.owner === "human";
-  const isTower  = entity.kind === "tower";
-  const isKing   = entity.id?.includes("king");
-  const hpPct    = entity.hp / entity.maxHp;
+  const isHuman = entity.owner === "human";
+  const isTower = entity.kind  === "tower";
+  const isKing  = entity.id?.includes("king");
+
+  const hpPct = entity.hp / entity.maxHp;
+
+  // HP bar colour
+  const hpColor = hpPct > 0.6 ? "#22c55e" : hpPct > 0.3 ? "#f59e0b" : "#ef4444";
 
   const emoji = isTower
-    ? isKing ? (isHuman ? "🏰" : "👑") : (isHuman ? "🗼" : "⚫")
-    : entity.emoji || "?";
-
-  const hpColor = hpPct > 0.6 ? "var(--success)" : hpPct > 0.3 ? "var(--warn)" : "var(--ai-col)";
+    ? isKing
+      ? isHuman ? "🏰" : "👑"
+      : isHuman ? "🗼" : "⚫"
+    : entity.emoji || "⚔️";
 
   return (
-    <div style={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      gap: 1,
-      padding: "1px 2px",
-      borderRadius: 4,
-      background: isHuman
-        ? "rgba(59,130,246,0.18)"
-        : "rgba(239,68,68,0.18)",
-      border: `1px solid ${isHuman ? "rgba(59,130,246,0.4)" : "rgba(239,68,68,0.4)"}`,
-      minWidth: isTower ? 36 : 28,
-      animation: entity.kind === "unit" ? "pulse 1.5s ease-in-out infinite" : "none"
-    }}>
-      <span style={{ fontSize: isTower ? 18 : 14, lineHeight: 1 }}>{emoji}</span>
+    <div className={`entity ${isHuman ? "human" : "enemy"} ${isTower ? "tower" : "unit"}`}>
+      <span className="emoji">{emoji}</span>
 
       {/* HP bar */}
-      <div style={{ width: "100%", height: 3, background: "rgba(0,0,0,0.4)", borderRadius: 2, overflow: "hidden" }}>
-        <div style={{
-          width: `${Math.max(0, hpPct * 100)}%`,
-          height: "100%",
-          background: hpColor,
-          transition: "width 0.3s"
-        }} />
+      <div className="hp-bar">
+        <div
+          className="hp-fill"
+          style={{
+            width:      `${Math.max(0, hpPct * 100)}%`,
+            background: hpColor
+          }}
+        />
       </div>
 
-      {/* HP text for towers */}
+      {/* HP number — towers only */}
       {isTower && (
         <span style={{ fontSize: 7, color: hpColor, fontFamily: "Share Tech Mono" }}>
           {entity.hp}
