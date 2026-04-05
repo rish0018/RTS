@@ -241,48 +241,30 @@ function moveToward(unit, target, state) {
   const dx = target.x - unit.x;
   const dy = target.y - unit.y;
   let nx = unit.x, ny = unit.y;
-  const targetX = unit.x + (Math.abs(dx) >= Math.abs(dy) ? (dx > 0 ? 1 : -1) : 0);
-  const targetY = unit.y + (Math.abs(dx) >= Math.abs(dy) ? 0 : (dy > 0 ? 1 : -1));
 
-  // Check if occupied by friendly
+  if (Math.abs(dx) >= Math.abs(dy)) nx += dx > 0 ? 1 : -1;
+  else ny += dy > 0 ? 1 : -1;
+
+  // Collision avoidance with friendlies
   const occupied = state.units.some(
     u => u !== unit && u.owner === unit.owner
-      && Math.round(u.x) === Math.round(targetX) && Math.round(u.y) === Math.round(targetY)
+      && Math.round(u.x) === Math.round(nx) && Math.round(u.y) === Math.round(ny)
   );
 
-  if (!occupied) {
-    // Primary move is free
-    nx = Math.max(0, Math.min(GRID_COLS - 1, targetX));
-    ny = Math.max(0, Math.min(GRID_ROWS - 1, targetY));
-  } else {
-    // Try fallback positions
-    const altMoves = [
-      [unit.x, targetY],  // Move vertically only
-      [targetX, unit.y],  // Move horizontally only
-      [unit.x + 1, unit.y], [unit.x - 1, unit.y],  // Left/right
-      [unit.x, unit.y + 1], [unit.x, unit.y - 1]   // Up/down
-    ];
-    
-    let found = false;
-    for (const [ax, ay] of altMoves) {
-      const cx = Math.max(0, Math.min(GRID_COLS - 1, ax));
-      const cy = Math.max(0, Math.min(GRID_ROWS - 1, ay));
-      const blocked = state.units.some(
-        u => u !== unit && u.owner === unit.owner
-          && Math.round(u.x) === cx && Math.round(u.y) === cy
-      );
-      if (!blocked) {
-        nx = cx;
-        ny = cy;
-        found = true;
-        break;
-      }
+  if (occupied) {
+    // Try orthogonal alternative
+    if (Math.abs(dx) >= Math.abs(dy)) {
+      ny = unit.y + (dy !== 0 ? (dy > 0 ? 1 : -1) : 1);
+      nx = unit.x;
+    } else {
+      nx = unit.x + (dx !== 0 ? (dx > 0 ? 1 : -1) : 1);
+      ny = unit.y;
     }
-    // If all alternatives blocked, stay in place
   }
 
-  unit.x = nx;
-  unit.y = ny;
+  // Bounds check both primary and alternative moves
+  unit.x = Math.max(0, Math.min(GRID_COLS - 1, nx));
+  unit.y = Math.max(0, Math.min(GRID_ROWS - 1, ny));
 }
 
 function marchForward(unit) {

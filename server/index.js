@@ -87,6 +87,22 @@ app.post("/run-training", async (req, res) => {
 let gameState        = createGameState();
 let latestSuggestion = null;
 
+console.log(`\n Initial game state created:`);
+console.log(`   gameOver: ${gameState.gameOver}`);
+console.log(`   winner: ${gameState.winner}`);
+console.log(`   tick: ${gameState.tick}`);
+console.log(`   Human King HP: ${gameState.players.human.towers.find(t => t.id === "h-king")?.hp || "MISSING"}`);
+console.log(`   AI King HP: ${gameState.players.ai.towers.find(t => t.id === "ai-king")?.hp || "MISSING"}\n`);
+// ---- Auto-reset game when it's over and no players are connected ----
+let clientCount = 0;
+setInterval(() => {
+  if (gameState.gameOver && clientCount === 0) {
+    console.log(" Game was over and no players connected - resetting game");
+    gameState = createGameState();
+    latestSuggestion = null;
+  }
+}, 500);
+
 // ---- Auto-train on startup if DB is sparse -----------------
 const AUTO_TRAIN_THRESHOLD = 50;
 setTimeout(async () => {
@@ -99,15 +115,20 @@ setTimeout(async () => {
       console.error("Auto-train error:", e.message);
     }
   } else {
-    console.log(`✅ RL Q-table has ${size} entries — skipping auto-train`);
+    console.log(` RL Q-table has ${size} entries — skipping auto-train`);
   }
 }, 2000);
 
 // ---- Game Loop (100ms ticks) --------------------------------
+let tickCount = 0;
 setInterval(() => {
+  // Pause game if no clients connected
+  if (clientCount === 0) return;
+  
   if (gameState.gameOver) return;
 
   tickGameState(gameState);
+  tickCount++;
 
   const suggestion = analyzeTick(gameState);
   if (suggestion) {
@@ -123,11 +144,19 @@ setInterval(() => {
     winner:   gameState.winner,
     stats:    gameState.stats
   });
+  
+  // Log every 50 ticks (~5 seconds)
+  if (tickCount % 50 === 0) {
+    console.log(` Game tick ${gameState.tick} | Units: ${gameState.units.length} | Human towers: ${gameState.players.human.towers.length} | AI towers: ${gameState.players.ai.towers.length}`);
+  }
 }, 100);
 
 // ---- Socket.IO Events --------------------------------------
 io.on("connection", (socket) => {
-  console.log(`✅ Client connected: ${socket.id}`);
+  clientCount++;
+  console.log(`✅ Client connected: ${socket.id} (${clientCount} total)`);
+  console.log(`   Initial state: tick=${gameState.tick}, gameOver=${gameState.gameOver}, winner=${gameState.winner}`);
+  console.log(`   Towers: Human=${gameState.players.human.towers.length}, AI=${gameState.players.ai.towers.length}`);
 
   socket.emit("INIT_STATE", {
     gameState,
@@ -158,36 +187,37 @@ io.on("connection", (socket) => {
     resetTutor();
     latestSuggestion = null;
     io.emit("GAME_RESTARTED", { gameState, unitTypes: UNIT_TYPES });
-    console.log("🔄 Game restarted");
+    console.log(" Game restarted");
   });
 
   socket.on("disconnect", () => {
-    console.log(`❌ Client disconnected: ${socket.id}`);
+    clientCount--;
+    console.log(`❌ Client disconnected: ${socket.id} (${clientCount} total)`);
   });
 });
 
 // ---- Socket.IO & Server Error Handlers -----
 io.on("connect_error", (error) => {
-  console.error("🔴 Socket.IO connection error:", error);
+  console.error(" Socket.IO connection error:", error);
 });
 
 io.on("error", (error) => {
-  console.error("🔴 Socket.IO server error:", error);
+  console.error(" Socket.IO server error:", error);
 });
 
 server.on("error", (error) => {
   if (error.code === "EADDRINUSE") {
-    console.error(`🔴 Port 3001 is already in use. Kill process or change port.`);
+    console.error(` Port 3001 is already in use. Kill process or change port.`);
   } else {
-    console.error("🔴 Server error:", error);
+    console.error(" Server error:", error);
   }
   process.exit(1);
 });
 
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
-  console.log(`\n🚀 AI RTS Tutor Server running on http://localhost:${PORT}`);
-  console.log(`   📊 RL Stats: http://localhost:${PORT}/rl-stats`);
-  console.log(`   📋 RL Log:   http://localhost:${PORT}/rl-log`);
-  console.log(`   🎓 Train:    POST http://localhost:${PORT}/run-training\n`);
+  console.log(`\n  AI RTS Tutor Server running on http://localhost:${PORT}`);
+  console.log(`    RL Stats: http://localhost:${PORT}/rl-stats`);
+  console.log(`    RL Log:   http://localhost:${PORT}/rl-log`);
+  console.log(`    Train:    POST http://localhost:${PORT}/run-training\n`);
 });

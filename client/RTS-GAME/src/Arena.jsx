@@ -22,6 +22,12 @@ export default function Arena({ gameState, onCellClick }) {
     ...(players?.ai?.towers   || [])
   ];
 
+  // Debug log towers
+  if (allTowers.length > 0 && window.__lastTowerCount !== allTowers.length) {
+    console.log(` Towers received: ${allTowers.length}`, allTowers.map(t => `${t.id}(${t.x},${t.y})`));
+    window.__lastTowerCount = allTowers.length;
+  }
+
   // ── Build cell-map: "x,y" → list of entities ──────────────
   const cellMap = {};
 
