@@ -35,25 +35,31 @@ After running these commands, the backend server will initialize and listen for 
 
 ### Terminal 2: Start the Frontend Application
 
-In a separate terminal window, navigate to the client directory and start the React development server:
+In a separate terminal window, navigate to the client React application directory and start the development server:
 
 ```bash
-cd client
+cd client/RTS-GAME
 npm install
-npm start
+npm run dev
 ```
 
-The frontend application will spin up and typically open automatically in your default web browser at **http://localhost:3000**. If it doesn't open automatically, you can manually navigate to this address. The client will automatically attempt to connect to the backend server via WebSocket.
+The Vite development server will start and automatically open your default web browser at **http://localhost:5173** (Vite's default port). The client will automatically attempt to connect to the backend server via WebSocket at http://localhost:3001.
+
+If the browser doesn't open automatically, manually navigate to http://localhost:5173.
 
 ### Verification
 
-You should see:
-1. A game arena displaying a grid-based battlefield
-2. Your player units at the bottom half of the screen
-3. An enemy area at the top half where AI-controlled units spawn
-4. A deployment panel on the right side for selecting and placing units
-5. A statistics bar at the top showing current game information
-6. An AI Tutor panel displaying strategic suggestions
+Once both servers are running, you should see:
+
+1. **Backend console output**: Confirmation that Express server is listening on http://localhost:3001
+2. **Frontend console output**: Vite dev server notification showing the app is running at http://localhost:5173
+3. **Browser display** (at http://localhost:5173):
+   - A game arena displaying a grid-based battlefield (18 columns × 10 rows)
+   - Your player units at the bottom half of the screen
+   - An enemy area at the top half where AI-controlled units spawn
+   - A deployment panel on the right side for selecting and placing units
+   - A statistics bar at the top showing current game information
+   - An AI Tutor panel displaying strategic suggestions
 
 ---
 
@@ -122,27 +128,29 @@ ai-rts-tutor/
 │   │                         # - Tower and resource management
 │   └── tutor/
 │       └── tutor.js         # AI Tutor system including:
-│                             # - Rule-based decision engine
+│                             # - RL simulation-based strategy generation
 │                             # - Game state analysis
 │                             # - Suggestion generation
 │                             # - Confidence scoring
 │
-└── client/                  # React Frontend (Port 3000)
-    └── src/
-        ├── App.jsx           # Root application component
-        │                     # Application layout and main structure
-        ├── Arena.jsx         # Game board renderer
-        │                     # Displays grid, units, towers, and entities
-        ├── DeployPanel.jsx   # Unit deployment interface
-        │                     # Shows available units and deployment options
-        ├── TutorPanel.jsx    # AI suggestion display component
-        │                     # Shows AI recommendations and explanations
-        ├── StatsBar.jsx      # Head-up display (HUD)
-        │                     # Shows game timer, health, elixir, and status
-        ├── GameOver.jsx      # Game end screen overlay
-        │                     # Displays win/loss state and restart option
-        └── useSocket.js      # WebSocket connection hook
-                              # Manages real-time communication with server
+└── client/                  # React Frontend Root
+    └── RTS-GAME/            # React Vite Application (Port 5173)
+        └── src/
+            ├── main.jsx           # React entry point
+            ├── App.jsx            # Root application component
+            │                      # Application layout and main structure
+            ├── Arena.jsx          # Game board renderer
+            │                      # Displays grid, units, towers, and entities
+            ├── DeployPanel.jsx    # Unit deployment interface
+            │                      # Shows available units and deployment options
+            ├── TutorPanel.jsx     # AI suggestion display component
+            │                      # Shows AI recommendations and explanations
+            ├── StatsBar.jsx       # Head-up display (HUD)
+            │                      # Shows game timer, health, elixir, and status
+            ├── GameOver.jsx       # Game end screen overlay
+            │                      # Displays win/loss state and restart option
+            └── useSocket.js       # WebSocket connection hook
+                                  # Manages real-time communication with server
 ```
 
 ### Technology Stack
@@ -154,8 +162,9 @@ ai-rts-tutor/
 
 **Frontend**:
 - React: JavaScript library for building user interfaces
+- Vite: Fast build tool and development server for modern web applications
 - Hooks (React custom hooks): For state management and lifecycle
-- WebSocket API: For real-time communication with the backend
+- WebSocket API: For real-time communication with the backend server
 
 ---
 
@@ -264,8 +273,8 @@ These events are sent from the client to communicate player actions to the serve
 
 A typical game session follows this communication pattern:
 
-1. Player opens http://localhost:3000 in browser
-2. Client connects to server via WebSocket (socket.io-client)
+1. Player opens http://localhost:5173 in browser (Vite dev server)
+2. Client connects to server via WebSocket (socket.io-client connects to http://localhost:3001)
 3. Server sends `INIT_STATE` with complete game configuration (units, towers, initial state, available suggestions)
 4. **Game Loop** (repeating every 100ms):
    - Server executes `tickGameState()` — advances physics, moves units, resolves combat
