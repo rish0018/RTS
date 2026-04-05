@@ -4,7 +4,7 @@
 
 import React, { useState } from "react";
 
-const UNIT_ORDER = ["knight", "archer", "giant", "wizard"];
+const UNIT_ORDER = ["knight", "archer", "minion", "giant", "wizard", "bomber"];
 
 export default function DeployPanel({ unitTypes, humanElixir, selectedCol, onDeploy, actionMsg }) {
   const [selected, setSelected] = useState("knight");
@@ -46,7 +46,7 @@ export default function DeployPanel({ unitTypes, humanElixir, selectedCol, onDep
       </div>
 
       {/* Unit Cards */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
         {UNIT_ORDER.map(type => {
           const info  = unitTypes[type];
           if (!info) return null;

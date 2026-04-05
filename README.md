@@ -112,7 +112,7 @@ To deploy a unit:
 
 ## Project Architecture
 
-The system follows a client-server architecture with clear separation of concerns. The backend handles all game logic and AI decision-making, while the frontend provides the user interface and real-time visualization.
+The system follows a client-server architecture with clear separation of concerns. The backend handles all game logic, AI decision-making, and RL training, while the frontend provides the user interface and real-time visualization.
 
 ```
 ai-rts-tutor/
@@ -126,12 +126,20 @@ ai-rts-tutor/
 │   │                         # - Unit spawning and movement
 │   │                         # - Combat calculations
 │   │                         # - Tower and resource management
-│   └── tutor/
-│       └── tutor.js         # AI Tutor system including:
-│                             # - RL simulation-based strategy generation
-│                             # - Game state analysis
-│                             # - Suggestion generation
-│                             # - Confidence scoring
+│   ├── tutor/
+│   │   └── tutor.js         # AI Tutor system including:
+│   │                         # - RL simulation-based strategy generation
+│   │                         # - Game state analysis
+│   │                         # - Suggestion generation
+│   │                         # - Confidence scoring
+│   └── rl/                  # Reinforcement Learning System including:
+│       ├── offlineTrainer.js    # Offline RL training loop
+│       │                         # - Runs N simulations across synthetic game states
+│       │                         # - Stores state-action pairs and rewards
+│       │                         # - Builds persistent Q-tables
+│       └── rlDatabase.js        # Persistent Q-table storage
+│                                # - Survives server restarts
+│                                # - Tracks training sessions and metrics
 │
 └── client/                  # React Frontend Root
     └── RTS-GAME/            # React Vite Application (Port 5173)
@@ -145,6 +153,8 @@ ai-rts-tutor/
             │                      # Shows available units and deployment options
             ├── TutorPanel.jsx     # AI suggestion display component
             │                      # Shows AI recommendations and explanations
+            ├── RLDashboard.jsx    # RL training metrics and control panel
+            │                      # Shows Q-table growth, rewards, training logs
             ├── StatsBar.jsx       # Head-up display (HUD)
             │                      # Shows game timer, health, elixir, and status
             ├── GameOver.jsx       # Game end screen overlay
@@ -227,6 +237,28 @@ The tutor uses reinforcement learning simulation to evaluate potential deploymen
 
 This approach provides adaptive, situation-aware recommendations that improve as the game evolves.
 
+### Offline RL Training System
+
+Beyond real-time tutor suggestions, the system includes an advanced **offline reinforcement learning training pipeline** that continuously improves decision-making:
+
+**How It Works**:
+- **Synthetic State Generation**: Creates diverse game scenarios representing different threat levels, resource states, and strategic situations
+- **Action Evaluation**: For each state, tests all possible unit deployments and measures their effectiveness
+- **Q-Table Building**: Stores state-action pairs and their expected rewards in a persistent Q-table
+- **Reward Calculation**: Rewards are based on damage dealt, towers destroyed, units saved, and game outcomes
+
+**Key Features**:
+- **Persistent Storage**: Q-tables survive server restarts using atomic JSON file writes
+- **Training Sessions**: Each training run is logged with metrics like number of simulations, average rewards, and coverage
+- **Incremental Learning**: New training sessions build on previous Q-tables rather than starting from scratch
+- **Session Tracking**: Records session history with reward trends and state coverage metrics
+
+**Training Parameters**:
+- **Horizon**: Number of ticks simulated per action evaluation (20 ticks by default)
+- **Action Space**: Tests deployments across 8 strategic columns
+- **State Discretization**: Game states are hashed into buckets (elixir levels, tower HP bands, unit positions)
+- **Simulation Count**: Configurable number of synthetic states to train on (typically 1000+ per session)
+
 ---
 
 ## Server API and WebSocket Events
@@ -242,6 +274,8 @@ These HTTP endpoints are available at http://localhost:3001:
 | `/` | GET | Server health check | `{ status: "AI RTS Tutor Server Running" }` |
 | `/unit-types` | GET | Retrieve all available unit definitions | JSON object with unit stats, costs, descriptions |
 | `/stats` | GET | Get current game statistics | `{ tick, stats, winner, gameOver }` - includes units deployed, towers destroyed, elixir spent per player |
+| `/rl-stats` | GET | Get RL training metrics and Q-table status | `{ totalSimulations, totalSessions, coverageSize, avgRewardHistory, trainingLog }` |
+| `/train-rl` | POST | Trigger offline RL training session | Accepts `{ simulations: number }`, returns training results and updated Q-table metrics |
 
 ### WebSocket Events
 
@@ -303,7 +337,44 @@ This event-driven architecture ensures low-latency, responsive gameplay even wit
 
 ---
 
-## Game Statistics and Event Logging
+## RL Dashboard and Training Interface
+
+The frontend includes a dedicated **RL Dashboard** component that provides visibility into the reinforcement learning training process and allows manual training execution.
+
+### Dashboard Features
+
+**Metrics Tab**:
+- **Q-Table Growth**: Visual representation of state-action pair coverage
+- **Average Reward Trend**: Graph showing reward improvement over training sessions
+- **Total Simulations**: Counter of all training simulations run
+- **Session Count**: Number of completed training sessions
+- **Last Training Time**: Timestamp of most recent training session
+
+**Training Log Tab**:
+- **Session History**: Detailed list of all training sessions executed
+- **Per-Session Metrics**: 
+  - Simulation count for that session
+  - Average reward achieved
+  - New state-action pairs discovered
+  - Completion timestamp
+
+**Training Controls**:
+- **Simulation Count Slider**: Adjust number of synthetic states to test (1-5000)
+- **Run Training Button**: Trigger a new offline training session
+- **Progress Indicator**: Real-time display of training progress during execution
+- **Last Completion Status**: Summary of most recent training results
+
+### Using the RL Dashboard
+
+To access the RL Dashboard:
+1. Start both backend and frontend servers
+2. Open http://localhost:5173 in browser
+3. Navigate to the RL Dashboard panel (or tab)
+4. Set desired simulation count
+5. Click "Run Training" to start an offline training session
+6. Monitor progress and view historical results
+
+The Q-table learned during training is immediately used to improve tutor suggestions in subsequent games, creating a feedback loop where gameplay improves the training data and the training improves gameplay suggestions.
 
 The system tracks detailed game statistics to measure player and AI performance:
 
@@ -403,10 +474,28 @@ The modular architecture makes it straightforward to extend and customize the sy
 
 ## Technology Stack
 
-- **Backend**: Node.js, Express.js, Socket.IO
-- **Frontend**: React, Socket.IO Client
-- **Communication**: WebSocket (via Socket.IO for fallback support)
-- **AI**: Rule-based engine with RL simulation (no external ML framework required)
+- **Backend**: 
+  - Node.js runtime environment
+  - Express.js web framework
+  - Socket.IO for real-time WebSocket communication
+  - RL system with Q-learning algorithm (offline training)
+  
+- **Frontend**: 
+  - React 19 framework with custom hooks
+  - Vite build tool and dev server
+  - Socket.IO client for real-time updates
+  - React components for game UI and RL dashboard
+  
+- **Data Storage**: 
+  - JSON-based persistent Q-table storage for RL models
+  - Training session logs and performance metrics
+  - Event logs for replay and analysis
+
+- **AI Architecture**: 
+  - Rule-based heuristic engine for real-time suggestions
+  - RL simulation engine for strategy evaluation
+  - Offline Q-learning for model training
+  - State discretization and hashing for efficient representation
 
 ---
 
@@ -414,12 +503,14 @@ The modular architecture makes it straightforward to extend and customize the sy
 
 Potential improvements and extensions to the system:
 
-- **Q-learning RL**: Replace simulation-based suggestions with trained Q-learning models for faster, more adaptive recommendations
-- **Multiple Game Rooms**: Support multiple concurrent games/rooms so different players can play simultaneously
-- **Replay System**: Save and replay games using the event log for educational analysis
-- **MongoDB Logging**: Persist game events and statistics to database for player performance tracking
-- **Player Dashboard**: Web Dashboard showing win rate, average stats, learning progress over time
-- **Ladder/Ranking System**: Competitive ladder with ELO-style ranking
-- **Unit Upgrades**: Permanent or temporary unit stat upgrades earned through gameplay
-- **Special Abilities**: Unit-specific activated abilities (stun, heal, summon, etc.)
-- **Multiple Game Modes**: Rush (rapid spawning), Survival (waves of AI units), Puzzle (specific challenges)
+- **Neural Network Integration**: Replace Q-learning with neural networks (TensorFlow.js) for more sophisticated decision-making
+- **Player Profiles**: Track individual player performance and adapt difficulty/suggestions per player
+- **Multiplayer Competitive**: Support player-vs-player matches with ELO ranking system
+- **Advanced RL Features**: Policy gradients, actor-critic methods, experience replay
+- **Replay System**: Save and replay games using the event log for educational analysis and coaching
+- **MongoDB Logging**: Persist game events, training sessions, and statistics to database
+- **Player Dashboard**: Web interface showing win rates, learning progress, strategy effectiveness
+- **Tournament Mode**: Seasonal tournaments with brackets and leaderboards
+- **Unit Cosmetics**: Skins, animations, visual effects for enhanced engagement
+- **Map Variations**: Different arena layouts, terrain, objectives
+- **Mobile Optimization**: Responsive design for tablet and mobile play

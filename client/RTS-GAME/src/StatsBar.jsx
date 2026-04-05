@@ -9,7 +9,10 @@ export default function StatsBar({ gameState }) {
 
   const humanTowerHp = human?.towers?.reduce((s, t) => s + t.hp, 0) ?? 0;
   const aiTowerHp    = ai?.towers?.reduce((s, t)    => s + t.hp, 0) ?? 0;
-  const maxTowerHp   = 400; // 2 × 100 + 1 × 200
+  
+  // Calculate maxTowerHp dynamically from initial tower values
+  const maxTowerHp = (human?.towers?.reduce((s, t) => s + (t.maxHp ?? 0), 0) ?? 0);
+  const maxTowerHp_Normalized = Math.max(maxTowerHp, 400); // Fallback to 400 if not available
 
   const seconds = ((tick ?? 0) * 0.1).toFixed(1);
 
@@ -28,7 +31,7 @@ export default function StatsBar({ gameState }) {
         color="var(--human)"
         elixir={human?.elixir ?? 0}
         towerHp={humanTowerHp}
-        maxTowerHp={maxTowerHp}
+        maxTowerHp={maxTowerHp_Normalized}
         flip={false}
       />
 
@@ -45,7 +48,7 @@ export default function StatsBar({ gameState }) {
         color="var(--ai-col)"
         elixir={ai?.elixir ?? 0}
         towerHp={aiTowerHp}
-        maxTowerHp={maxTowerHp}
+        maxTowerHp={maxTowerHp_Normalized}
         flip={true}
       />
     </div>

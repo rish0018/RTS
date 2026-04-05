@@ -141,7 +141,7 @@ function EntityToken({ entity }) {
   const isTower = entity.kind  === "tower";
   const isKing  = entity.id?.includes("king");
 
-  const hpPct = entity.hp / entity.maxHp;
+  const hpPct = (entity.maxHp ?? 1) > 0 ? entity.hp / entity.maxHp : 0;
 
   // HP bar colour
   const hpColor = hpPct > 0.6 ? "#22c55e" : hpPct > 0.3 ? "#f59e0b" : "#ef4444";

@@ -11,6 +11,8 @@ const RIVER_Y   = 4;
 let unitIdCounter = 0;
 
 function createGameState() {
+  // Reset unit ID counter for each new game
+  unitIdCounter = 0;
   return {
     tick: 0,
     arena: { cols: GRID_COLS, rows: GRID_ROWS },
@@ -94,6 +96,8 @@ function spawnUnit(state, type, owner, col) {
   if (!template) return null;
   const player = state.players[owner];
   if (player.elixir < template.elixirCost) return null;
+  // Ensure unitIdCounter is fresh (important for sim environments)
+  if (unitIdCounter > 10000) unitIdCounter = 0;
 
   player.elixir -= template.elixirCost;
 
