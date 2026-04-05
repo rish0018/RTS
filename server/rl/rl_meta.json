@@ -1,0 +1,14 @@
+{
+  "totalSimulations": 296,
+  "totalSessions": 1,
+  "lastTrainingAt": "2026-04-05T17:37:28.913Z",
+  "improvedEntries": 277,
+  "coverageSize": 277,
+  "avgRewardHistory": [
+    {
+      "session": 1,
+      "avgReward": -57.39,
+      "timestamp": "2026-04-05T17:37:28.913Z"
+    }
+  ]
+}

@@ -57,10 +57,12 @@ function assessSituation(state) {
   const humanRight  = humanUnits.filter(u => u.x >= 12);
 
   const humanTowerRows = human.towers.map(t => t.y);
-  const closestAiDist  = aiUnits.reduce((min, u) => {
-    const d = Math.min(...humanTowerRows.map(ty => Math.abs(u.y - ty)));
-    return d < min ? d : min;
-  }, 999);
+  const closestAiDist  = humanTowerRows.length > 0
+    ? aiUnits.reduce((min, u) => {
+        const d = Math.min(...humanTowerRows.map(ty => Math.abs(u.y - ty)));
+        return d < min ? d : min;
+      }, 999)
+    : Infinity;  // If no towers, treat as "far away"
 
   const hKing  = human.towers.find(t => t.id === "h-king");
   const hLeft  = human.towers.find(t => t.id === "h-tower-left");

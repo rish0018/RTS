@@ -166,6 +166,24 @@ io.on("connection", (socket) => {
   });
 });
 
+// ---- Socket.IO & Server Error Handlers -----
+io.on("connect_error", (error) => {
+  console.error("🔴 Socket.IO connection error:", error);
+});
+
+io.on("error", (error) => {
+  console.error("🔴 Socket.IO server error:", error);
+});
+
+server.on("error", (error) => {
+  if (error.code === "EADDRINUSE") {
+    console.error(`🔴 Port 3001 is already in use. Kill process or change port.`);
+  } else {
+    console.error("🔴 Server error:", error);
+  }
+  process.exit(1);
+});
+
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
   console.log(`\n🚀 AI RTS Tutor Server running on http://localhost:${PORT}`);

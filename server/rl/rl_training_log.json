@@ -1,0 +1,39 @@
+[
+  {
+    "sessionId": "session_1775410648833",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -57.39,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.1,
+    "topActions": [
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C0_R1_N0",
+        "action": "wizard-8",
+        "reward": 36
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      },
+      {
+        "state": "e5_hHP4_aHP4_L2_C0_R0_N0",
+        "action": "bomber-3",
+        "reward": 16
+      }
+    ],
+    "dbSize": 277,
+    "timestamp": "2026-04-05T17:37:28.913Z"
+  }
+]

@@ -15,7 +15,7 @@ export default function useSocket() {
   const [unitTypes, setUnitTypes]     = useState({});
   const [suggestion, setSuggestion]   = useState(null);
   const [actionMsg, setActionMsg]     = useState(null);
-  const [gameOver, setGameOver]       = useState(null);
+  const [winner, setWinner]           = useState(null);
 
   useEffect(() => {
     const socket = io(SERVER_URL, { transports: ["websocket"] });
@@ -32,19 +32,20 @@ export default function useSocket() {
 
     socket.on("GAME_UPDATE", (update) => {
       setGameState(prev => prev ? { ...prev, ...update } : update);
-      if (update.gameOver) setGameOver(update.winner);
+      if (update.gameOver) setWinner(update.winner);
     });
 
     socket.on("TUTOR_SUGGESTION", (s) => setSuggestion(s));
 
     socket.on("ACTION_RESULT", (res) => {
       setActionMsg(res);
-      setTimeout(() => setActionMsg(null), 2500);
+      const timeoutId = setTimeout(() => setActionMsg(null), 2500);
+      return () => clearTimeout(timeoutId);
     });
 
     socket.on("GAME_RESTARTED", (gs) => {
       setGameState(gs);
-      setGameOver(null);
+      setWinner(null);
       setSuggestion(null);
     });
 
@@ -62,5 +63,5 @@ export default function useSocket() {
   // Expose raw socket for RL dashboard event listeners
   const getSocket = () => socketRef.current;
 
-  return { connected, gameState, unitTypes, suggestion, actionMsg, gameOver, deployUnit, restartGame, getSocket };
+  return { connected, gameState, unitTypes, suggestion, actionMsg, winner, deployUnit, restartGame, getSocket };
 }

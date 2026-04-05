@@ -28,17 +28,17 @@ function loadFromDisk() {
   try {
     if (fs.existsSync(DB_PATH)) {
       qTable = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
-      console.log(`📂 RL Q-table loaded: ${Object.keys(qTable).length} entries`);
+      console.log(`RL Q-table loaded: ${Object.keys(qTable).length} entries`);
     }
     if (fs.existsSync(LOG_PATH)) {
       trainingLog = JSON.parse(fs.readFileSync(LOG_PATH, "utf8"));
-      console.log(`📋 RL training log loaded: ${trainingLog.length} sessions`);
+      console.log(`RL training log loaded: ${trainingLog.length} sessions`);
     }
     if (fs.existsSync(META_PATH)) {
       meta = { ...meta, ...JSON.parse(fs.readFileSync(META_PATH, "utf8")) };
     }
   } catch (e) {
-    console.error("⚠️  RL DB load error:", e.message);
+    console.error("RL DB load error:", e.message);
     qTable = {};
     trainingLog = [];
   }
@@ -59,7 +59,7 @@ function saveToDisk() {
     fs.renameSync(tmpLog,  LOG_PATH);
     fs.renameSync(tmpMeta, META_PATH);
   } catch (e) {
-    console.error("⚠️  RL DB save error:", e.message);
+    console.error(" RL DB save error:", e.message);
   }
 }
 

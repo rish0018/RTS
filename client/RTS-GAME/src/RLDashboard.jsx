@@ -17,16 +17,21 @@ export default function RLDashboard({ socket }) {
   const [lastComplete, setLastComplete] = useState(null);
   const [simCount, setSimCount]   = useState(1000);
   const [tab, setTab]             = useState("metrics"); // "metrics" | "log"
+  const [connectionError, setConnectionError] = useState(null);
   const logRef = useRef(null);
 
   // Fetch initial RL stats
   const fetchStats = async () => {
     try {
       const r = await fetch(`${SERVER}/rl-stats`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const d = await r.json();
       setMeta(d);
       setLog(d.trainingLog || []);
-    } catch (e) { /* server not up yet */ }
+      setConnectionError(null);
+    } catch (e) {
+      setConnectionError(`Backend connection failed: ${e.message}`);
+    }
   };
 
   useEffect(() => {
@@ -64,15 +69,24 @@ export default function RLDashboard({ socket }) {
 
   const handleRunTraining = async () => {
     if (training) return;
+    if (simCount < 1 || simCount > 50000) {
+      alert("Invalid simulation count. Use 1-50,000.");
+      return;
+    }
     setTraining(true);
     setProgress({ done: 0, total: simCount, pct: 0 });
     try {
-      await fetch(`${SERVER}/run-training`, {
+      const r = await fetch(`${SERVER}/run-training`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ simulations: simCount })
       });
+      if (!r.ok) {
+        throw new Error(`Training failed: ${r.status}`);
+      }
+      setConnectionError(null);
     } catch (e) {
+      setConnectionError(`Training error: ${e.message}`);
       setTraining(false);
     }
   };
