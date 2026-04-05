@@ -1,6 +1,7 @@
 // ============================================================
 // index.js — Main Server
-// Express + Socket.IO + Game Loop + AI Tutor
+// IMPROVED: RL stats endpoint, per-simulation results broadcast,
+//           gameStats tracking, reconnect-safe state snapshot
 // ============================================================
 
 const express  = require("express");
@@ -21,17 +22,24 @@ const io     = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-// Health check
 app.get("/", (req, res) => res.json({ status: "AI RTS Tutor Server Running" }));
-
-// Expose unit types so frontend can list them
 app.get("/unit-types", (req, res) => res.json(UNIT_TYPES));
 
-// ---- Global Game State ------------------------------------
-let gameState = createGameState();
+// Stats endpoint — returns current game stats
+app.get("/stats", (req, res) => {
+  res.json({
+    tick: gameState.tick,
+    stats: gameState.stats,
+    winner: gameState.winner,
+    gameOver: gameState.gameOver
+  });
+});
+
+// ---- Global State ------------------------------------------
+let gameState        = createGameState();
 let latestSuggestion = null;
 
-// ---- Game Loop (100ms ticks) -------------------------------
+// ---- Game Loop (100ms ticks) --------------------------------
 const TICK_MS = 100;
 
 setInterval(() => {
@@ -39,20 +47,19 @@ setInterval(() => {
 
   tickGameState(gameState);
 
-  // Run AI tutor analysis (throttled inside analyzeTick)
   const suggestion = analyzeTick(gameState);
   if (suggestion) {
     latestSuggestion = suggestion;
     io.emit("TUTOR_SUGGESTION", suggestion);
   }
 
-  // Broadcast game state to all connected clients
   io.emit("GAME_UPDATE", {
-    tick: gameState.tick,
-    players: gameState.players,
-    units: gameState.units,
+    tick:     gameState.tick,
+    players:  gameState.players,
+    units:    gameState.units,
     gameOver: gameState.gameOver,
-    winner: gameState.winner
+    winner:   gameState.winner,
+    stats:    gameState.stats
   });
 }, TICK_MS);
 
@@ -60,14 +67,14 @@ setInterval(() => {
 io.on("connection", (socket) => {
   console.log(`✅ Client connected: ${socket.id}`);
 
-  // Send full initial state
+  // Full initial snapshot (safe for reconnects)
   socket.emit("INIT_STATE", {
     gameState,
     unitTypes: UNIT_TYPES,
     latestSuggestion
   });
 
-  // ---- Player deploys a unit --------------------------------
+  // Player deploys a unit
   socket.on("PLAYER_ACTION", (data) => {
     const { type, col } = data;
 
@@ -90,11 +97,12 @@ io.on("connection", (socket) => {
     }
   });
 
-  // ---- Restart game -----------------------------------------
+  // Restart game
   socket.on("RESTART_GAME", () => {
     gameState = createGameState();
     resetTutor();
-    io.emit("GAME_RESTARTED", gameState);
+    latestSuggestion = null;
+    io.emit("GAME_RESTARTED", { gameState, unitTypes: UNIT_TYPES });
     console.log("🔄 Game restarted");
   });
 

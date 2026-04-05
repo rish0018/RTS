@@ -63,23 +63,44 @@ The gameplay follows a turn-based real-time strategy format where both you and t
 
 ### Game Mechanics
 
-**Game Arena and Field**: The playing field is organized as a grid divided into two operational zones: your defensive zone (bottom half) and the opponent's zone (top half). This division creates strategic depth as you must manage both defense against incoming threats and offense to push toward victory.
+**Game Arena and Field**: The playing field is a grid of 18 columns by 10 rows, divided into two zones by a river at row 4. Your defensive zone occupies rows 5-9 (bottom), while the AI opponent's zone occupies rows 0-3 (top). This physical division creates natural strategic boundaries for managing offensive and defensive unit positioning.
 
-**Unit Deployment**: 
-1. Click on a specific cell or column in your bottom half to select a deployment zone where you want to place units
-2. Open the Deploy Panel on the right sidebar to view available units, their stats (health, attack damage, cost), and deployment costs measured in Elixir
-3. Select the unit type you want to deploy
-4. Click the Deploy button to place the unit (this action consumes the required amount of Elixir)
+**Unit Types and Deployment**: The game features six distinct unit types, each with unique strengths and roles:
 
-**Resource Management**: Your primary resource is Elixir, which regenerates over time. You accumulate Elixir gradually as the game progresses, with a maximum cap to prevent excessive hoarding. Strategic decisions involve choosing when to spend resources (deploying units) versus when to bank resources for upcoming needs.
+| Unit | Health | Damage | Range | Speed | Cost | Special Ability | Use Case |
+|---|---|---|---|---|---|---|---|
+| Knight | 80 | 15 | 1 | 1.0 | 3 Elixir | Balanced | General-purpose melee fighter |
+| Archer | 40 | 20 | 3 | 1.0 | 3 Elixir | Ranged attacks | Attacking from distance |
+| Giant | 200 | 30 | 1 | 0.5 | 5 Elixir | Targets towers; tank | Breaking through defenses |
+| Wizard | 60 | 50 | 4 | 0.8 | 5 Elixir | Long-range magic | High damage, risky placement |
+| Minion | 25 | 10 | 1 | 1.5 | 2 Elixir | Fast swarm unit | Quick lane pressure |
+| Bomber | 50 | 35 | 3 | 0.7 | 4 Elixir | Splash damage | Area damage against grouped units |
 
-**Combat and Objectives**: 
-- Your units will automatically move forward and engage enemy units and structures
-- Enemy units will attempt to destroy your King Tower (the central objective structure in your zone)
-- Your objective is to destroy the enemy's King Tower while defending your own
-- When either player destroys the opponent's King Tower, the game ends in victory for the attacking player
+To deploy a unit:
+1. Click on a specific column in your zone to select a deployment location
+2. Select the desired unit type from the Deploy Panel
+3. Click Deploy (costs Elixir based on unit type)
+4. The unit spawns at the edge of your zone and advances toward the enemy
 
-**Winning and Losing**: Victory is achieved by reducing the enemy King Tower to zero health. Defeat occurs when your King Tower is destroyed by enemy units.
+**Defensive and Offensive Structures**: Each player controls three towers:
+- **Two Side Towers** (left and right): Primary defensive structures with 100 HP each
+- **King Tower** (center): Primary objective with 200 HP; destroying this achieves victory
+
+**Resource Management**: Elixir is the primary resource for deploying units:
+- You start with 5 Elixir, with a maximum capacity of 10
+- Elixir regenerates automatically: +1 Elixir every 28 game ticks (~2.8 seconds)
+- Strategic depth comes from deciding when to spend resources immediately versus banking for future needs
+- The system tracks total elixir spent as a game statistic
+
+**Combat System**: 
+- Units automatically move forward and engage targets (enemy units and towers)
+- Units prefer designated targets: Giants prioritize towers; other units engage nearest threats
+- Attack speed varies by unit type; some units have cooldown mechanics between attacks
+- **Splash Damage**: Bombers deal area-of-effect damage, hitting all enemies within range instead of single targets
+- Combat resolution is continuous—units resolve their engagements every game tick
+- Kills and tower destructions are tracked in per-player statistics
+
+**Winning and Losing**: Victory is achieved by reducing the enemy King Tower to zero health. The game immediately ends when either player's King Tower is destroyed, displaying the winner on the game-over screen.
 
 ---
 
@@ -140,83 +161,167 @@ ai-rts-tutor/
 
 ## AI Tutor System
 
-The AI Tutor is a rule-based system that continuously monitors the game state and generates strategic suggestions to help players learn optimal gameplay strategies. Rather than playing the game itself, the tutor acts as a coach analyzing your current situation and recommending the best course of action.
+The AI Tutor is an advanced rule-based system enhanced with Reinforcement Learning (RL) simulation that analyzes game state in real-time and generates strategic suggestions. Rather than playing the game itself, the tutor acts as an intelligent coach that evaluates situations and recommends optimal actions with detailed reasoning.
 
 ### How the Tutor Works
 
-The tutor system operates on a periodic evaluation cycle, typically analyzing the game state every 3 seconds. During each analysis cycle, the tutor:
+The tutor operates on multiple evaluation cycles at different frequencies to balance accuracy with computational efficiency:
 
-1. **Examines the current game state**: Reviews unit positions, tower health, available resources, and resource regeneration rates
-2. **Evaluates strategic conditions**: Checks multiple conditions against predefined rule sets to identify critical situations
-3. **Generates suggestions**: Creates specific, actionable recommendations tailored to the current game situation
-4. **Calculates confidence**: Assigns a confidence score indicating how certain the AI is about each suggestion
-5. **Sends feedback**: Transmits suggestions to the client for display to the player
+1. **Per-Tick Analysis (Every 100ms)**: The tutor checks for critical immediate threats and opportunities
+2. **Periodic RL Simulation (Every 6 seconds)**: Runs reinforcement learning simulations to evaluate potential unit deployment strategies
+3. **Suggestion Throttling (Every 3 seconds)**: Generates user-facing suggestions at human-readable intervals to avoid overwhelming the player
 
-### Strategic Decision Rules
+During each analysis cycle, the tutor:
 
-The tutor evaluates the following conditions and provides corresponding suggestions:
+1. **Assesses current situation**: Analyzes unit positions, tower health, available resources, lane-by-lane threat distribution
+2. **Evaluates strategic conditions**: Checks multiple conditions to identify critical game situations
+3. **Runs RL simulations** (periodically): Tests hypothetical unit deployment strategies by simulating 12 game ticks into the future with 100 action samples
+4. **Ranks recommendations**: Uses both rule-based heuristics and simulation results to score potential actions
+5. **Generates explanations**: Creates human-readable reasoning for suggested tactics
+6. **Transmits feedback**: Sends suggestions to the client for immediate display
 
-| Game Condition | AI Tutor Suggestion | Reasoning |
-|---|---|---|
-| Enemy units detected near your towers | Deploy defensive units to that location | Immediate threat to your primary objective; defend to prevent tower damage |
-| Your lane is clear with no enemy units | Execute offensive push down that lane | Opportunity to advance without immediate resistance; capitalize on openings |
-| Your tower has significant health advantage | Deploy a powerful unit like a Giant for offensive push | Favorable defensive position allows for aggressive tactics without risk |
-| Your Elixir resource is at maximum capacity | Spend Elixir immediately on unit deployment | Resource is capped and will be wasted if not used; no benefit to holding full resources |
-| Your tower health is lower than enemy tower health | Deploy units to balance offensive and defensive needs | Defensive disadvantage means you should focus on both protection and counter-offense |
+### Strategic Assessment
+
+The tutor evaluates conditions across multiple dimensions:
+
+**Per-Lane Analysis**: The arena is divided into three lanes (left, center, right), and the tutor analyzes threat levels and unit concentrations in each lane separately. This enables lane-specific recommendations like "Defend Left Lane" or "Push Center."
+
+**Threat Detection**: The system calculates:
+- Proximity danger: How close are enemy units to your towers?
+- Concentration threats: Are enemies bunching up in specific lanes?
+- Resource advantage: Who has more total tower health?
+
+**Elixir Efficiency**: The tutor detects wasteful hoarding patterns. If your Elixir is at or near maximum capacity (8+), the tutor recommends spending it immediately since held resources provide no benefit.
+
+**Tower Status**: The tutor tracks individual tower health and alerts you to severe damage conditions (King Tower below 100 HP).
 
 ### Suggestion Structure
 
-Each AI suggestion includes three key components that help players understand the reasoning:
+Each AI suggestion sent to the player includes three components:
 
-- **Title**: A concise action label (e.g., "Defend Left Lane") that immediately communicates the suggested action
-- **Reason**: A detailed human-readable explanation describing why this action is recommended based on the current game state
-- **Confidence Score**: A numerical confidence value (typically 0-100 or 0-1) indicating how certain the AI is about this recommendation, helping players distinguish between strongly recommended and weakly recommended actions
+- **Title**: Concise action label (e.g., "Defend Left Lane", "Big Push with Giant")
+- **Reason**: Detailed explanation of the strategic reasoning, contextualized to the current game state
+- **Confidence Score**: Numerical confidence (0-100) indicating how certain the AI is about this recommendation
 
-This three-part structure ensures players don't just receive orders, but understand the strategic thinking behind each recommendation, supporting the learning objective.
+This structure ensures players learn the reasoning behind suggestions, not just receive orders.
+
+### RL Simulation Engine
+
+The tutor uses reinforcement learning simulation to evaluate potential deployment strategies without requiring neural networks or extensive training. The process works as follows:
+
+1. **State Cloning**: Creates a copy of the current game state
+2. **Hypothesis Testing**: Simulates deploying different unit combinations
+3. **Future Projection**: Runs the simulation forward 12 ticks (~1.2 seconds) to see outcomes
+4. **Outcome Scoring**: Evaluates outcomes based on damage dealt, towers destroyed, units saved
+5. **Ranking**: Sorts strategies by effectiveness and confidence
+6. **Caching**: Results are cached for 6 seconds to avoid expensive recomputation
+
+This approach provides adaptive, situation-aware recommendations that improve as the game evolves.
 
 ---
 
-## Real-Time Communication Protocol
+## Server API and WebSocket Events
 
-The system uses WebSocket connections to maintain real-time synchronized game state between client and server. All communication occurs asynchronously, allowing gameplay to remain responsive while the server processes game logic.
+The system provides both REST API endpoints and WebSocket events for real-time communication between client and server.
+
+### REST API Endpoints
+
+These HTTP endpoints are available at http://localhost:3001:
+
+| Endpoint | Method | Purpose | Response |
+|---|---|---|---|
+| `/` | GET | Server health check | `{ status: "AI RTS Tutor Server Running" }` |
+| `/unit-types` | GET | Retrieve all available unit definitions | JSON object with unit stats, costs, descriptions |
+| `/stats` | GET | Get current game statistics | `{ tick, stats, winner, gameOver }` - includes units deployed, towers destroyed, elixir spent per player |
+
+### WebSocket Events
+
+The system uses WebSocket connections to maintain real-time synchronized game state between client and server. All communication occurs asynchronously.
 
 ### Server-to-Client Events
 
-These events are sent from the server to update the client about game state changes:
+These events are sent from the server to update the client about game state changes. The server broadcasts updates at a fixed interval (100ms per tick):
 
-| Event Name | Purpose | Data Payload |
-|---|---|---|
-| `INIT_STATE` | Sent when a client first connects to initialize the game | Complete game state object including arena dimensions, initial unit positions, tower health, available unit types with their stats, and current resource amounts |
-| `GAME_UPDATE` | Sent every game tick (~100-200ms) to update game state | Incremental updates including unit positions, health values, elixir amounts, any unit deaths or spawns, and other state changes |
-| `TUTOR_SUGGESTION` | Sent when AI tutor generates a new suggestion (~3 seconds) | Suggestion object containing title, detailed reason, confidence score, and recommended unit/lane |
-| `ACTION_RESULT` | Response to player deployment attempts | Success or failure status, error message if deployment failed, updated game state |
-| `GAME_OVER` | Sent when either player achieves victory | Winner identification, final scores, and restart option |
+| Event Name | Frequency | Purpose | Data Payload |
+|---|---|---|---|
+| `INIT_STATE` | Once on connect | Initialize new client connection with game state | Complete game state, all unit types with full stats, latest suggestions, arena dimensions (18x10) |
+| `GAME_UPDATE` | Every tick (100ms) | Update players about current game state | Tick counter, player resources (elixir), all active units with positions/health, tower status, game-over flag, game statistics |
+| `TUTOR_SUGGESTION` | Every 3 seconds (~30 ticks)* | Send AI tutor recommendation | Title, detailed reason text, confidence score (0-100), recommended unit type, recommended lane |
+| `ACTION_RESULT` | On-demand (player action) | Response to deployment attempt | Success flag, unit object (if successful) or error message (if failed) |
+
+*RL simulation runs every 6 seconds for expensive strategy analysis; suggestions are throttled to 3-second intervals to avoid overwhelming players
 
 ### Client-to-Server Events
 
 These events are sent from the client to communicate player actions to the server:
 
-| Event Name | Purpose | Data Payload |
-|---|---|---|
-| `PLAYER_ACTION` | Player attempts to deploy a unit | Action type (deployment), target column/cell, unit type selected |
-| `RESTART_GAME` | Player requests to start a new game | None (simple restart signal) |
+| Event Name | Trigger | Purpose | Data Payload |
+|---|---|---|---|
+| `PLAYER_ACTION` | Player clicks Deploy button | Deploy a unit to the arena | `{ type: unitType, col: columnNumber }` |
+| `RESTART_GAME` | Player clicks Restart after game ends | Reset game and start fresh session | None (simple trigger signal) |
 
 ### Communication Flow Example
 
 A typical game session follows this communication pattern:
 
-1. Client connects to server via WebSocket
-2. Server sends `INIT_STATE` with full initial game configuration
-3. Client renders the game board with initial state
-4. Every tick (~100-200ms): Server sends `GAME_UPDATE` events, client updates display
-5. Every 3 seconds: Server sends `TUTOR_SUGGESTION`, client displays recommendation
-6. When player clicks Deploy: Client sends `PLAYER_ACTION` event
-7. Server validates action and responds with `ACTION_RESULT`
-8. Cycle continues until either player destroys opponent's tower
-9. Server sends `GAME_OVER` when victory condition is met
-10. Player sees game over screen and can click restart
-11. When restart requested: Client sends `RESTART_GAME`, server resets state
-12. Process begins again from step 2
+1. Player opens http://localhost:3000 in browser
+2. Client connects to server via WebSocket (socket.io-client)
+3. Server sends `INIT_STATE` with complete game configuration (units, towers, initial state, available suggestions)
+4. **Game Loop** (repeating every 100ms):
+   - Server executes `tickGameState()` — advances physics, moves units, resolves combat
+   - Server runs `aiDecisionLogic()` — AI spawns its own units strategically
+   - Server broadcasts `GAME_UPDATE` to all connected clients
+5. **Tutor Cycle** (every 3 seconds, ~30 ticks):
+   - Server calls `analyzeTick()` from tutor module
+   - If RL simulation is due (every 60 ticks), runs complex strategy evaluation
+   - Server generates suggestion based on current situation + RL results
+   - Server broadcasts `TUTOR_SUGGESTION` to all clients
+6. **Player Action** (when player clicks Deploy):
+   - Client sends `PLAYER_ACTION` with unit type and column
+   - Server validates action (checks elixir cost, game state validity)
+   - Server calls `spawnUnit()` to create unit and deduct elixir
+   - Server sends `ACTION_RESULT` with success/failure
+   - Updated state is included in next `GAME_UPDATE` broadcast
+7. **Game End** (when a King Tower is destroyed):
+   - `tickGameState()` detects game-over condition and sets `gameOver: true`, `winner: "human"|"ai"`
+   - Next `GAME_UPDATE` contains end-game state
+   - Client displays game-over screen with restart button
+   - Player clicks Restart → Client sends `RESTART_GAME`
+   - Server runs `createGameState()` to reset all state
+   - Cycle begins again from step 3
+
+This event-driven architecture ensures low-latency, responsive gameplay even with complex AI calculations running server-side.
+
+---
+
+## Game Statistics and Event Logging
+
+The system tracks detailed game statistics to measure player and AI performance:
+
+### Per-Player Statistics
+
+For each player (human and AI), the system records:
+
+- **Units Deployed**: Total number of units spawned during the game
+- **Towers Destroyed**: Count of enemy towers that were destroyed
+- **Elixir Spent**: Cumulative elixir used on unit deployments
+
+These statistics can be retrieved via the `/stats` REST endpoint and are included in every `GAME_UPDATE` message, allowing the client to display real-time performance metrics.
+
+### Event Logging
+
+The game engine maintains an event log (limited to the last 200 events in memory) that tracks significant game occurrences:
+
+- Unit spawns (type, owner, location)
+- Unit deaths
+- Tower damage and destruction
+- Game state transitions
+- AI decisions
+
+This event log enables:
+- **Replay analysis**: Understanding sequences of events that led to victory/defeat
+- **Debugging**: Diagnosing unexpected game behavior
+- **Educational value**: Analyzing decision patterns and their outcomes
 
 ---
 
@@ -224,39 +329,88 @@ A typical game session follows this communication pattern:
 
 The modular architecture makes it straightforward to extend and customize the system:
 
-**Game Balance**: Modify unit stats, costs, and tower health values in gameState.js to adjust difficulty and dynamics
+**Game Balance**: Modify unit stats (health, damage, speed, range), costs, or tower health values in [gameState.js](server/game/gameState.js) to adjust difficulty and gameplay dynamics
 
-**AI Tutor Logic**: Update the decision rules in tutor.js to teach different strategies or focus on specific gameplay aspects
+**AI Tutor Logic**: Update decision rules and RL simulation parameters in [tutor.js](server/tutor/tutor.js) to teach different strategies or focus on specific gameplay aspects. The RL simulation depth and sampling can be tuned.
 
-**Visual Customization**: Modify React components to change the UI appearance, layout, or color scheme
+**AI Opponent Behavior**: Modify `aiDecisionLogic()` in [gameState.js](server/game/gameState.js) to change how the AI opponent spawns units and responds to player actions
 
-**Game Mechanics**: Extend gameState.js to add new unit types, special abilities, or additional game rules
+**Visual Customization**: Modify React components to change the UI appearance, layout, color scheme, or information displayed
+
+**New Unit Types**: Add new entries to `UNIT_TYPES` in [gameState.js](server/game/gameState.js) with custom stats and special abilities
+
+**Mechanics Extensions**: Add new combat mechanics, special abilities, map hazards, or game modes by extending the tick engine
+
+---
+
+## Performance Considerations
+
+**Server Capacity**: The tick-based engine processes game logic at 10 ticks per second (100ms intervals). The RL simulation adds periodic (every 6 seconds) computational overhead. For optimal performance:
+- Run server and client on the same machine or low-latency network
+- Monitor server CPU usage during RL simulations
+- Consider caching or memoization for frequently computed situations
+
+**Client Rendering**: The browser renders the grid, units, and effects. For smooth experience:
+- Use a modern browser with hardware acceleration enabled
+- Avoid running other intensive tasks during gameplay
+- On slower machines, consider reducing visual effects or grid resolution
 
 ---
 
 ## Troubleshooting
 
-**Cannot connect to server**: Ensure the backend server is running on port 3001 and the frontend is trying to connect to http://localhost:3001
+**Cannot connect to server**: 
+- Ensure backend server is running (`npm start` in server/ directory)
+- Verify server is listening on port 3001 (check terminal output)
+- Check firewall settings if running on different machines
+- Verify frontend is configured to connect to correct server URL
 
-**Units not appearing**: Verify the Arena.jsx is receiving game state updates and check browser console for errors
+**Units not spawning or displaying**: 
+- Check browser developer console (F12) for JavaScript errors
+- Verify `GAME_UPDATE` events are being received (check Network tab WebSocket)
+- Ensure Arena.jsx has correct grid dimensions (18x10)
+- Check that units have valid x,y coordinates within grid bounds
 
-**Tutor suggestions not showing**: Check that tutor.js is being invoked and suggestions are being transmitted over WebSocket
+**Tutor suggestions not appearing**: 
+- Confirm tutor.js `analyzeTick()` is being called every tick
+- Check that suggestions are not filtered out by cooldown timers
+- Verify TutorPanel.jsx is listening for `TUTOR_SUGGESTION` events
+- Check server logs for any errors during suggestion generation
 
-**Gameplay feels slow**: Check network latency and ensure both server and client are running on the same machine for optimal performance
+**Gameplay feels slow or laggy**: 
+- Check network latency (developer tools Network tab)
+- Monitor server CPU and memory usage
+- Reduce number of active units/entities if possible
+- Ensure both server and client are on same or low-latency network
+- Reduce rendering load by disabling non-essential visual effects
+
+**Game state desyncs between client and server**: 
+- Check for console errors during `GAME_UPDATE` processing
+- Verify player hasn't missed an `ACTION_RESULT` response
+- Consider network packet loss if on wifi
+- Restart both client and server if desync persists
 
 ---
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-- **Backend**: Node.js, Express, Socket.IO
+- **Backend**: Node.js, Express.js, Socket.IO
 - **Frontend**: React, Socket.IO Client
-- **AI**: Rule-based heuristic engine (upgradeable to Q-learning RL)
+- **Communication**: WebSocket (via Socket.IO for fallback support)
+- **AI**: Rule-based engine with RL simulation (no external ML framework required)
 
 ---
 
-## 🔮 Planned Extensions
+## Future Extensions
 
-- [ ] Q-learning RL to improve suggestions over time
-- [ ] Multiple game sessions / rooms
-- [ ] MongoDB logging for replay analysis
-- [ ] Player performance dashboard
+Potential improvements and extensions to the system:
+
+- **Q-learning RL**: Replace simulation-based suggestions with trained Q-learning models for faster, more adaptive recommendations
+- **Multiple Game Rooms**: Support multiple concurrent games/rooms so different players can play simultaneously
+- **Replay System**: Save and replay games using the event log for educational analysis
+- **MongoDB Logging**: Persist game events and statistics to database for player performance tracking
+- **Player Dashboard**: Web Dashboard showing win rate, average stats, learning progress over time
+- **Ladder/Ranking System**: Competitive ladder with ELO-style ranking
+- **Unit Upgrades**: Permanent or temporary unit stat upgrades earned through gameplay
+- **Special Abilities**: Unit-specific activated abilities (stun, heal, summon, etc.)
+- **Multiple Game Modes**: Rush (rapid spawning), Survival (waves of AI units), Puzzle (specific challenges)
