@@ -47,3 +47,5 @@ logs/
 .cache/
 .parcel-cache/
 .turbo/
+
+.client\RTS-GAME\public\results_pictures

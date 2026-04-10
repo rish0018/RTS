@@ -1,9 +1,9 @@
 {
-  "totalSimulations": 2368,
-  "totalSessions": 3,
-  "lastTrainingAt": "2026-04-09T05:44:20.648Z",
-  "improvedEntries": 582,
-  "coverageSize": 582,
+  "totalSimulations": 9472,
+  "totalSessions": 15,
+  "lastTrainingAt": "2026-04-10T10:57:29.904Z",
+  "improvedEntries": 1356,
+  "coverageSize": 1356,
   "avgRewardHistory": [
     {
       "session": 1,
@@ -19,6 +19,66 @@
       "session": 3,
       "avgReward": -73.2,
       "timestamp": "2026-04-09T05:44:20.648Z"
+    },
+    {
+      "session": 4,
+      "avgReward": -64.34,
+      "timestamp": "2026-04-10T10:43:00.915Z"
+    },
+    {
+      "session": 5,
+      "avgReward": -71.33,
+      "timestamp": "2026-04-10T10:43:06.594Z"
+    },
+    {
+      "session": 6,
+      "avgReward": -62.93,
+      "timestamp": "2026-04-10T10:43:10.123Z"
+    },
+    {
+      "session": 7,
+      "avgReward": -68.75,
+      "timestamp": "2026-04-10T10:43:14.037Z"
+    },
+    {
+      "session": 8,
+      "avgReward": -59.07,
+      "timestamp": "2026-04-10T10:43:16.370Z"
+    },
+    {
+      "session": 9,
+      "avgReward": -52.35,
+      "timestamp": "2026-04-10T10:43:18.519Z"
+    },
+    {
+      "session": 10,
+      "avgReward": -63.66,
+      "timestamp": "2026-04-10T10:43:21.036Z"
+    },
+    {
+      "session": 11,
+      "avgReward": -119.8,
+      "timestamp": "2026-04-10T10:43:22.605Z"
+    },
+    {
+      "session": 12,
+      "avgReward": -67.92,
+      "timestamp": "2026-04-10T10:43:26.743Z"
+    },
+    {
+      "session": 13,
+      "avgReward": -64.67,
+      "timestamp": "2026-04-10T10:43:28.464Z"
+    },
+    {
+      "session": 14,
+      "avgReward": -56.2,
+      "timestamp": "2026-04-10T10:43:29.841Z"
+    },
+    {
+      "session": 15,
+      "avgReward": -72.69,
+      "timestamp": "2026-04-10T10:57:29.904Z"
     }
   ]
 }

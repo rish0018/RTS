@@ -65,7 +65,7 @@ const UNIT_TYPES = {
     prefersTowers: true
   },
   wizard: {
-    name: "Wizard", hp: 60, maxHp: 60, speed: 0.8,
+    name: "Wizard", hp: 40, maxHp: 40, speed: 0.8,
     damage: 30, range: 4, attackSpeed: 0.7,
     elixirCost: 5, emoji: "🧙",
     description: "High damage, long range. Squishy."

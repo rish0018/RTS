@@ -1,8 +1,6 @@
-// ============================================================
 // tutor.js — AI Tutor with Persistent Q-Table + RL Simulation
 // IMPROVED: Looks up offline-trained Q-table first,
-//           blends with live RL sim, richer confidence scores.
-// ============================================================
+// blends with live RL sim, richer confidence scores.
 
 const { runRLSimulation, UNIT_TYPES } = require("../game/gameState");
 const db = require("../rl/rlDatabase");

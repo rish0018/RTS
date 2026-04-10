@@ -109,5 +109,449 @@
     ],
     "dbSize": 582,
     "timestamp": "2026-04-09T05:44:20.648Z"
+  },
+  {
+    "sessionId": "session_1775817780380",
+    "simulations": 1480,
+    "statesCovered": 20,
+    "avgReward": -64.34,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.5,
+    "topActions": [
+      {
+        "state": "e5_hHP4_aHP4_L2_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 58
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e2_hHP4_aHP4_L2_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 22
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      }
+    ],
+    "dbSize": 676,
+    "timestamp": "2026-04-10T10:43:00.915Z"
+  },
+  {
+    "sessionId": "session_1775817785481",
+    "simulations": 1480,
+    "statesCovered": 20,
+    "avgReward": -71.33,
+    "improvedEntries": 296,
+    "elapsedSeconds": 1.1,
+    "topActions": [
+      {
+        "state": "e2_hHP4_aHP4_L1_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C1_R1_N1",
+        "action": "wizard-8",
+        "reward": 38
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      }
+    ],
+    "dbSize": 766,
+    "timestamp": "2026-04-10T10:43:06.594Z"
+  },
+  {
+    "sessionId": "session_1775817789548",
+    "simulations": 1480,
+    "statesCovered": 20,
+    "avgReward": -62.93,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.5,
+    "topActions": [
+      {
+        "state": "e2_hHP4_aHP4_L0_C0_R1_N0",
+        "action": "wizard-3",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e5_hHP4_aHP4_L1_C0_R1_N0",
+        "action": "wizard-8",
+        "reward": 23
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      }
+    ],
+    "dbSize": 860,
+    "timestamp": "2026-04-10T10:43:10.122Z"
+  },
+  {
+    "sessionId": "session_1775817793781",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -68.75,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.2,
+    "topActions": [
+      {
+        "state": "e5_hHP4_aHP4_L2_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 58
+      },
+      {
+        "state": "e2_hHP4_aHP4_L1_C0_R1_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C0_R1_N0",
+        "action": "wizard-3",
+        "reward": 36
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      }
+    ],
+    "dbSize": 927,
+    "timestamp": "2026-04-10T10:43:14.030Z"
+  },
+  {
+    "sessionId": "session_1775817796232",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -59.07,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.1,
+    "topActions": [
+      {
+        "state": "e5_hHP4_aHP4_L1_C1_R0_N1",
+        "action": "wizard-3",
+        "reward": 91
+      },
+      {
+        "state": "e2_hHP4_aHP4_L1_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP4_aHP4_L1_C1_R0_N1",
+        "action": "archer-3",
+        "reward": 41
+      },
+      {
+        "state": "e5_hHP4_aHP4_L1_C1_R0_N1",
+        "action": "archer-8",
+        "reward": 41
+      }
+    ],
+    "dbSize": 1002,
+    "timestamp": "2026-04-10T10:43:16.369Z"
+  },
+  {
+    "sessionId": "session_1775817798348",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -52.35,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.2,
+    "topActions": [
+      {
+        "state": "e5_hHP4_aHP4_L1_C1_R1_N0",
+        "action": "wizard-8",
+        "reward": 58
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      },
+      {
+        "state": "e5_hHP4_aHP4_L1_C1_R1_N0",
+        "action": "archer-3",
+        "reward": 16
+      }
+    ],
+    "dbSize": 1111,
+    "timestamp": "2026-04-10T10:43:18.518Z"
+  },
+  {
+    "sessionId": "session_1775817800812",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -63.66,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.2,
+    "topActions": [
+      {
+        "state": "e5_hHP4_aHP4_L0_C1_R1_N1",
+        "action": "wizard-3",
+        "reward": 51
+      },
+      {
+        "state": "e5_hHP4_aHP4_L0_C1_R1_N1",
+        "action": "wizard-8",
+        "reward": 51
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e2_hHP4_aHP4_L1_C0_R1_N0",
+        "action": "wizard-8",
+        "reward": 27
+      }
+    ],
+    "dbSize": 1176,
+    "timestamp": "2026-04-10T10:43:21.029Z"
+  },
+  {
+    "sessionId": "session_1775817802555",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -119.8,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0,
+    "topActions": [
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 44
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R1_N0",
+        "action": "wizard-3",
+        "reward": 36
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      }
+    ],
+    "dbSize": 1212,
+    "timestamp": "2026-04-10T10:43:22.605Z"
+  },
+  {
+    "sessionId": "session_1775817806647",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -67.92,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.1,
+    "topActions": [
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-13",
+        "reward": 8
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "bomber-3",
+        "reward": 8
+      }
+    ],
+    "dbSize": 1260,
+    "timestamp": "2026-04-10T10:43:26.743Z"
+  },
+  {
+    "sessionId": "session_1775817808280",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -64.67,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.2,
+    "topActions": [
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      },
+      {
+        "state": "e2_hHP4_aHP4_L0_C1_R0_N0",
+        "action": "giant-8",
+        "reward": 8
+      },
+      {
+        "state": "e2_hHP4_aHP4_L0_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 8
+      }
+    ],
+    "dbSize": 1314,
+    "timestamp": "2026-04-10T10:43:28.464Z"
+  },
+  {
+    "sessionId": "session_1775817809639",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -56.2,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.2,
+    "topActions": [
+      {
+        "state": "e2_hHP4_aHP4_L0_C0_R1_N0",
+        "action": "wizard-3",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 28
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 20
+      }
+    ],
+    "dbSize": 1356,
+    "timestamp": "2026-04-10T10:43:29.840Z"
+  },
+  {
+    "sessionId": "session_1775818649835",
+    "simulations": 296,
+    "statesCovered": 20,
+    "avgReward": -72.69,
+    "improvedEntries": 296,
+    "elapsedSeconds": 0.1,
+    "topActions": [
+      {
+        "state": "e2_hHP4_aHP4_L0_C1_R0_N0",
+        "action": "wizard-3",
+        "reward": 50
+      },
+      {
+        "state": "e4_hHP4_aHP4_L1_C0_R0_N0",
+        "action": "wizard-8",
+        "reward": 50
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C1_R0_N0",
+        "action": "wizard-8",
+        "reward": 44
+      },
+      {
+        "state": "e5_hHP3_aHP4_L1_C1_R0_N0",
+        "action": "wizard-3",
+        "reward": 36
+      },
+      {
+        "state": "e3_hHP3_aHP4_L1_C0_R0_N0",
+        "action": "wizard-3",
+        "reward": 28
+      }
+    ],
+    "dbSize": 1356,
+    "timestamp": "2026-04-10T10:57:29.904Z"
   }
 ]
