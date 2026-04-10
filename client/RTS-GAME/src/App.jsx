@@ -52,7 +52,7 @@ export default function App() {
             textTransform: "uppercase", whiteSpace: "nowrap"
           }}
         >
-          🧠 RL Center
+          RL Center
         </button>
       </div>
 

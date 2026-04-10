@@ -43,7 +43,7 @@ function createGameState() {
   };
 }
 
-// ---- Unit Templates ----------------------------------------
+// Unit-Templates
 const UNIT_TYPES = {
   knight: {
     name: "Knight", hp: 80, maxHp: 80, speed: 1,
@@ -66,19 +66,19 @@ const UNIT_TYPES = {
   },
   wizard: {
     name: "Wizard", hp: 60, maxHp: 60, speed: 0.8,
-    damage: 50, range: 4, attackSpeed: 0.7,
+    damage: 30, range: 4, attackSpeed: 0.7,
     elixirCost: 5, emoji: "🧙",
     description: "High damage, long range. Squishy."
   },
   minion: {
-    name: "Minion", hp: 25, maxHp: 25, speed: 1.5,
+    name: "Minion", hp: 30, maxHp: 30, speed: 1.5,
     damage: 10, range: 1, attackSpeed: 1.5,
     elixirCost: 2, emoji: "😈",
     description: "Fast and cheap swarm unit."
   },
   bomber: {
     name: "Bomber", hp: 50, maxHp: 50, speed: 0.7,
-    damage: 35, range: 3, attackSpeed: 0.6,
+    damage: 25, range: 3, attackSpeed: 0.6,
     elixirCost: 4, emoji: "💣", splash: true,
     description: "Slow but deals splash damage to groups."
   }
@@ -312,7 +312,7 @@ function aiDecisionLogic(state) {
   }
 }
 
-// ---- RL Simulation Engine ----------------------------------
+// RL Simulation Engine 
 // Runs N Monte-Carlo simulations from the current state,
 // evaluating each possible human action by avg future reward.
 // Called by tutor.js to produce RL-backed suggestions.
@@ -365,8 +365,7 @@ function calcReward(finalState, initialState) {
   }
   const humanHp   = finalState.players.human.towers.reduce((s, t) => s + t.hp, 0);
   const aiHp      = finalState.players.ai.towers.reduce((s, t) => s + t.hp, 0);
-  const unitAdv   = (finalState.units.filter(u => u.owner === "human").length -
-                     finalState.units.filter(u => u.owner === "ai").length) * 10;
+  const unitAdv   = (finalState.units.filter(u => u.owner === "human").length - finalState.units.filter(u => u.owner === "ai").length) * 10;
   return (humanHp - aiHp) + unitAdv;
 }
 

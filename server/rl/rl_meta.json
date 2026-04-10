@@ -1,14 +1,24 @@
 {
-  "totalSimulations": 296,
-  "totalSessions": 1,
-  "lastTrainingAt": "2026-04-05T17:37:28.913Z",
-  "improvedEntries": 277,
-  "coverageSize": 277,
+  "totalSimulations": 2368,
+  "totalSessions": 3,
+  "lastTrainingAt": "2026-04-09T05:44:20.648Z",
+  "improvedEntries": 582,
+  "coverageSize": 582,
   "avgRewardHistory": [
     {
       "session": 1,
       "avgReward": -57.39,
       "timestamp": "2026-04-05T17:37:28.913Z"
+    },
+    {
+      "session": 2,
+      "avgReward": -74.09,
+      "timestamp": "2026-04-08T13:17:27.383Z"
+    },
+    {
+      "session": 3,
+      "avgReward": -73.2,
+      "timestamp": "2026-04-09T05:44:20.648Z"
     }
   ]
 }

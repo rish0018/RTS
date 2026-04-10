@@ -118,7 +118,7 @@ function pickBestSuggestion(s, state, rlResult, qEntry) {
         unit: type,
         col,
         lane,
-        title: `📚 Q-Table: Deploy ${unitInfo.name}`,
+        title: ` Q-Table: Deploy ${unitInfo.name}`,
         reason: `Trained across ${qEntry.visitCount} simulations — deploying ${unitInfo.name} at column ${col} (${lane} lane) yields avg reward ${Math.round(qEntry.avgReward)}.`,
         confidence: Math.round(qEntry.confidence),
         qTableBacked: true,
@@ -128,7 +128,7 @@ function pickBestSuggestion(s, state, rlResult, qEntry) {
       suggestions.push({
         priority: 11,
         action: "wait",
-        title: "📚 Q-Table: Hold Elixir",
+        title: " Q-Table: Hold Elixir",
         reason: `Offline training (${qEntry.visitCount} sims) shows waiting is optimal here (avg reward: ${Math.round(qEntry.avgReward)}).`,
         confidence: Math.round(qEntry.confidence),
         qTableBacked: true

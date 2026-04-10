@@ -1,114 +1,142 @@
 {
   "e1_hHP4_aHP4_L1_C0_R0_N0::minion-3": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.835Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.745Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP4_aHP4_L1_C0_R0_N0::minion-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.838Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.746Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP4_aHP4_L1_C0_R0_N0::minion-13": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.838Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.747Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP4_aHP4_L1_C0_R0_N0::wait": {
     "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.838Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.749Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::knight-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.838Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.860Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::knight-8": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.839Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.861Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::knight-13": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.839Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.861Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::archer-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.839Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.861Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::archer-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.839Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.863Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::archer-13": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.840Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.863Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::minion-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.840Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.878Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::minion-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.840Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.879Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::minion-13": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.840Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.879Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C1_R0_N0::wait": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.840Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.880Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R1_N0::knight-3": {
@@ -521,306 +549,382 @@
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::knight-3": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.881Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.984Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::knight-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.881Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.984Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::knight-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.881Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.984Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::archer-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.881Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.985Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::archer-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.882Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:19.985Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::archer-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.882Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.000Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::giant-3": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.882Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.000Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::giant-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.882Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.000Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::giant-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.882Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.001Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::wizard-3": {
     "avgReward": 28,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.883Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.001Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::wizard-8": {
     "avgReward": 20,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.883Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.020Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::wizard-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.883Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.020Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::minion-3": {
-    "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.883Z",
+    "avgReward": -24.666666666666668,
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.021Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::minion-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.883Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.021Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::minion-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.884Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.025Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::bomber-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.884Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.026Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::bomber-8": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.884Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.026Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::bomber-13": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.884Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.026Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e3_hHP3_aHP4_L1_C0_R0_N0::wait": {
     "avgReward": -30,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.884Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.027Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::knight-3": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.886Z",
+    "avgReward": -68,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.249Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::knight-8": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.886Z",
+    "avgReward": -68,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.250Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::knight-13": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -72,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.261Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::archer-3": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -66.4,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.261Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::archer-8": {
-    "avgReward": -62,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -60,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.261Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::archer-13": {
-    "avgReward": -66,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -70.4,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.261Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::giant-3": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -68,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.262Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::giant-8": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -68,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.263Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::giant-13": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -72,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.263Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::wizard-3": {
-    "avgReward": -20,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -26.4,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.263Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::wizard-8": {
-    "avgReward": -12,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -10,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.263Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::wizard-13": {
-    "avgReward": -62,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -65.6,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.263Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::minion-3": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -69.6,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.264Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::minion-8": {
-    "avgReward": -74,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.887Z",
+    "avgReward": -74.4,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.267Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::minion-13": {
-    "avgReward": -74,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.888Z",
+    "avgReward": -76.8,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.267Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::bomber-3": {
-    "avgReward": -70,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.888Z",
+    "avgReward": -68,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.267Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::bomber-8": {
-    "avgReward": -66,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.888Z",
+    "avgReward": -64.8,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.272Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::bomber-13": {
-    "avgReward": -66,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.888Z",
+    "avgReward": -70.4,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.273Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C1_R0_N0::wait": {
-    "avgReward": -78,
-    "visitCount": 2,
-    "lastUpdated": "2026-04-05T17:37:28.888Z",
+    "avgReward": -80,
+    "visitCount": 5,
+    "lastUpdated": "2026-04-09T05:44:20.274Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e5_hHP4_aHP4_L2_C0_R0_N0::knight-3": {
@@ -976,371 +1080,440 @@
     ]
   },
   "e1_hHP3_aHP4_L1_C2_R0_N2::minion-3": {
-    "avgReward": -143,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "avgReward": -146,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-09T05:44:20.316Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C2_R0_N2::minion-8": {
-    "avgReward": -144,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "avgReward": -131.5,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-09T05:44:20.316Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C2_R0_N2::minion-13": {
-    "avgReward": -136,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "avgReward": -138.5,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-09T05:44:20.320Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L1_C2_R0_N2::wait": {
-    "avgReward": -144,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "avgReward": -146.5,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-09T05:44:20.321Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::knight-3": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.321Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::knight-8": {
     "avgReward": -52,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.321Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::knight-13": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.322Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::archer-3": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.322Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::archer-8": {
     "avgReward": -44,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.323Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::archer-13": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.338Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::minion-3": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.895Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.338Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::minion-8": {
     "avgReward": -68,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.338Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::minion-13": {
     "avgReward": -60,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.338Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e1_hHP3_aHP4_L0_C1_R0_N0::wait": {
     "avgReward": -68,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.338Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::knight-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.339Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::knight-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.339Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::knight-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.339Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::archer-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.347Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::archer-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.347Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::archer-13": {
     "avgReward": -80,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.348Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::minion-3": {
     "avgReward": -80,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.348Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::minion-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.349Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::minion-13": {
     "avgReward": -80,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.359Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::bomber-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.421Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::bomber-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.896Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.474Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::bomber-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.474Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP3_aHP4_L0_C0_R0_N0::wait": {
     "avgReward": -80,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.474Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::knight-3": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.354Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::knight-8": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.354Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::knight-13": {
-    "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -18,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.354Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::archer-3": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.355Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::archer-8": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.355Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::archer-13": {
-    "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -10,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.355Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::giant-3": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.355Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::giant-8": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.356Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::giant-13": {
-    "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.897Z",
+    "avgReward": -18,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.356Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::wizard-3": {
-    "avgReward": -40,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -30,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.356Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::wizard-8": {
-    "avgReward": 2,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": 12,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.356Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::wizard-13": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.357Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::minion-3": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.357Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::minion-8": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.357Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::minion-13": {
-    "avgReward": -16,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -22,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.357Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::bomber-3": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::bomber-8": {
-    "avgReward": -48,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -38,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::bomber-13": {
-    "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -10,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e2_hHP4_aHP4_L1_C0_R1_N0::wait": {
-    "avgReward": -56,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.898Z",
+    "avgReward": -46,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e3_hHP3_aHP4_L0_C2_R0_N1::knight-3": {
@@ -1649,458 +1822,553 @@
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::knight-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.904Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.520Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::knight-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.904Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.520Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::knight-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.904Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.520Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::archer-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.904Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.520Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::archer-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.522Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::archer-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.522Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::giant-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.522Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::giant-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::giant-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::wizard-3": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::wizard-8": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::wizard-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::minion-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::minion-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::minion-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.523Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::bomber-3": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.524Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::bomber-8": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.524Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::bomber-13": {
     "avgReward": -72,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.524Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP3_aHP4_L0_C0_R0_N0::wait": {
     "avgReward": -80,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.905Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.525Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::knight-3": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.527Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::knight-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.528Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::knight-13": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.529Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::archer-3": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.530Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::archer-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.530Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::archer-13": {
     "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.531Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::giant-3": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.531Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::giant-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.906Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.532Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::giant-13": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.532Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::wizard-3": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.534Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::wizard-8": {
     "avgReward": 50,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.534Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::wizard-13": {
     "avgReward": 8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.538Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::minion-3": {
     "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.539Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::minion-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.539Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::minion-13": {
     "avgReward": -8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.551Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::bomber-3": {
     "avgReward": 8,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.552Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::bomber-8": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.554Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::bomber-13": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.559Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e4_hHP4_aHP4_L1_C0_R0_N0::wait": {
     "avgReward": 0,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.907Z",
+    "visitCount": 3,
+    "lastUpdated": "2026-04-09T05:44:20.559Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286",
+      "session_1775713459739"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::knight-3": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.375Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::knight-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.375Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::knight-13": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.375Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::archer-3": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.376Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::archer-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.376Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::archer-13": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.376Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::giant-3": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.376Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::giant-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.908Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.376Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::giant-13": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.909Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.377Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::wizard-3": {
-    "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.909Z",
+    "avgReward": 11,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.377Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::wizard-8": {
-    "avgReward": 36,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.909Z",
+    "avgReward": 11,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.377Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::wizard-13": {
-    "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "avgReward": -10,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.377Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::minion-3": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::minion-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::minion-13": {
-    "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "avgReward": -18,
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::bomber-3": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::bomber-8": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::bomber-13": {
     "avgReward": -14,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.378Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e5_hHP3_aHP4_L1_C0_R1_N0::wait": {
     "avgReward": -22,
-    "visitCount": 1,
-    "lastUpdated": "2026-04-05T17:37:28.910Z",
+    "visitCount": 2,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
     "sessions": [
-      "session_1775410648833"
+      "session_1775410648833",
+      "session_1775654247286"
     ]
   },
   "e1_hHP3_aHP4_L1_C0_R1_N1::minion-3": {
@@ -2213,6 +2481,2446 @@
     "lastUpdated": "2026-04-05T17:37:28.912Z",
     "sessions": [
       "session_1775410648833"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::knight-3": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.294Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::knight-8": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.294Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::knight-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.295Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::archer-3": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.295Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::archer-8": {
+    "avgReward": -44,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.295Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::archer-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.295Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::minion-3": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.296Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::minion-8": {
+    "avgReward": -60,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.296Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::minion-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.297Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::bomber-3": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.297Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::bomber-8": {
+    "avgReward": -44,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.297Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::bomber-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.304Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N0::wait": {
+    "avgReward": -60,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.304Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::knight-3": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.305Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::knight-8": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.306Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::knight-13": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.306Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::archer-3": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.307Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::archer-8": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.308Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::archer-13": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.308Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::giant-3": {
+    "avgReward": -180,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.308Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::giant-8": {
+    "avgReward": -172,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::giant-13": {
+    "avgReward": -180,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::wizard-3": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::wizard-8": {
+    "avgReward": -172,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::wizard-13": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::minion-3": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.309Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::minion-8": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.310Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::minion-13": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.310Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::bomber-3": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.310Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::bomber-8": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.310Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::bomber-13": {
+    "avgReward": -238,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.311Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP2_aHP4_L0_C1_R0_N0::wait": {
+    "avgReward": -1000,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.311Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::knight-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.312Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::knight-8": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.312Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::knight-13": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.312Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::archer-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.312Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::archer-8": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.313Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::archer-13": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.313Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::giant-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.313Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::giant-8": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.314Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::giant-13": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.314Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::wizard-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.314Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::wizard-8": {
+    "avgReward": 20,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.314Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::wizard-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::minion-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::minion-8": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::minion-13": {
+    "avgReward": -38,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::bomber-3": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::bomber-8": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.315Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::bomber-13": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.316Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP4_aHP4_L1_C0_R1_N1::wait": {
+    "avgReward": -38,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.316Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::knight-3": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.329Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::knight-8": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.329Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::knight-13": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.330Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::archer-3": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.330Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::archer-8": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.331Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::archer-13": {
+    "avgReward": -83,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.331Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::giant-3": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.331Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::giant-8": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.331Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::giant-13": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.331Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::wizard-3": {
+    "avgReward": -41,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.332Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::wizard-8": {
+    "avgReward": -41,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.332Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::wizard-13": {
+    "avgReward": -83,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.332Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::minion-3": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.332Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::minion-8": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.332Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::minion-13": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.333Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::bomber-3": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.333Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::bomber-8": {
+    "avgReward": -91,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.333Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::bomber-13": {
+    "avgReward": -83,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.334Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e4_hHP3_aHP4_L0_C0_R1_N0::wait": {
+    "avgReward": -99,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.334Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::knight-3": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.335Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::knight-8": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.336Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::knight-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.336Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::archer-3": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.337Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::archer-8": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.338Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::archer-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.338Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::giant-3": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.339Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::giant-8": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.340Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::giant-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.340Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::wizard-3": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.340Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::wizard-8": {
+    "avgReward": 66,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.341Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::wizard-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.342Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::minion-3": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.342Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::minion-8": {
+    "avgReward": -35,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.342Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::minion-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.343Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::bomber-3": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.343Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::bomber-8": {
+    "avgReward": -19,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.343Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::bomber-13": {
+    "avgReward": -27,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.344Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e5_hHP4_aHP4_L1_C1_R0_N1::wait": {
+    "avgReward": -35,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.345Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C2_R0_N1::minion-3": {
+    "avgReward": -143,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.346Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C2_R0_N1::minion-8": {
+    "avgReward": -151,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.346Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C2_R0_N1::minion-13": {
+    "avgReward": -151,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.346Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C2_R0_N1::wait": {
+    "avgReward": -151,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.347Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::knight-3": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::knight-8": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::knight-13": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::archer-3": {
+    "avgReward": -130,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.358Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::archer-8": {
+    "avgReward": -146,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::archer-13": {
+    "avgReward": -130,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::giant-3": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::giant-8": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::giant-13": {
+    "avgReward": -130,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::wizard-3": {
+    "avgReward": -80,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::wizard-8": {
+    "avgReward": -130,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.359Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::wizard-13": {
+    "avgReward": -122,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::minion-3": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::minion-8": {
+    "avgReward": -146,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::minion-13": {
+    "avgReward": -146,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::bomber-3": {
+    "avgReward": -130,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::bomber-8": {
+    "avgReward": -146,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.360Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::bomber-13": {
+    "avgReward": -138,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.361Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R1_N0::wait": {
+    "avgReward": -146,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.361Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::knight-3": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.362Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::knight-8": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.362Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::knight-13": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.362Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::archer-3": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.362Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::archer-8": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.362Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::archer-13": {
+    "avgReward": -152,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.363Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::giant-3": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.363Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::giant-8": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.363Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::giant-13": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.364Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::wizard-3": {
+    "avgReward": -160,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.364Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::wizard-8": {
+    "avgReward": -118,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.364Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::wizard-13": {
+    "avgReward": -124,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.364Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::minion-3": {
+    "avgReward": -176,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.364Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::minion-8": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.365Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::minion-13": {
+    "avgReward": -160,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.365Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::bomber-3": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.365Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::bomber-8": {
+    "avgReward": -168,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.365Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::bomber-13": {
+    "avgReward": -124,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.365Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C0_R2_N1::wait": {
+    "avgReward": -176,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.366Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C0_R2_N1::minion-3": {
+    "avgReward": -128,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C0_R2_N1::minion-8": {
+    "avgReward": -136,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C0_R2_N1::minion-13": {
+    "avgReward": -136,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C0_R2_N1::wait": {
+    "avgReward": -136,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::knight-3": {
+    "avgReward": -198,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.379Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::knight-8": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.380Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::knight-13": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.380Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::archer-3": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.380Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::archer-8": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.380Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::archer-13": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.381Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::minion-3": {
+    "avgReward": -191,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.381Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::minion-8": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.381Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::minion-13": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.381Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e1_hHP2_aHP4_L1_C0_R1_N1::wait": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-08T13:17:27.381Z",
+    "sessions": [
+      "session_1775654247286"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::knight-3": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.920Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::knight-8": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.921Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::knight-13": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.921Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::archer-3": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.931Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::archer-8": {
+    "avgReward": -64,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.932Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::archer-13": {
+    "avgReward": -64,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.933Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::minion-3": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.934Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::minion-8": {
+    "avgReward": -80,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.936Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::minion-13": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.936Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::bomber-3": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.937Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::bomber-8": {
+    "avgReward": -72,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.937Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::bomber-13": {
+    "avgReward": -64,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.940Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L0_C1_R1_N0::wait": {
+    "avgReward": -80,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.945Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::knight-3": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.948Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::knight-8": {
+    "avgReward": -88,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.948Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::knight-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.948Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::archer-3": {
+    "avgReward": -95,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.951Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::archer-8": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.951Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::archer-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.951Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::giant-3": {
+    "avgReward": -95,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.952Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::giant-8": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.952Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::giant-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.953Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::wizard-3": {
+    "avgReward": -45,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.955Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::wizard-8": {
+    "avgReward": -80,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.955Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::wizard-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.956Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::minion-3": {
+    "avgReward": -111,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.958Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::minion-8": {
+    "avgReward": -88,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.959Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::minion-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.959Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::bomber-3": {
+    "avgReward": -95,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.960Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::bomber-8": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.960Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::bomber-13": {
+    "avgReward": -103,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.960Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP3_aHP4_L1_C1_R0_N1::wait": {
+    "avgReward": -111,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.960Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::knight-3": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.961Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::knight-8": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.962Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::knight-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.962Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::archer-3": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.962Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::archer-8": {
+    "avgReward": -97,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.963Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::archer-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.963Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::giant-3": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.964Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::giant-8": {
+    "avgReward": -132,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.964Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::giant-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.964Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::wizard-3": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.965Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::wizard-8": {
+    "avgReward": -97,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.970Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::wizard-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.970Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::minion-3": {
+    "avgReward": -148,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.970Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::minion-8": {
+    "avgReward": -148,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.971Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::minion-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.977Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::bomber-3": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.977Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::bomber-8": {
+    "avgReward": -97,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.977Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::bomber-13": {
+    "avgReward": -140,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.977Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C1_R0_N0::wait": {
+    "avgReward": -148,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:19.978Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::knight-3": {
+    "avgReward": -100,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.275Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::knight-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.276Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::knight-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.285Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::archer-3": {
+    "avgReward": -92,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.286Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::archer-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.287Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::archer-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.288Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::giant-3": {
+    "avgReward": -92,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.291Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::giant-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.292Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::giant-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.293Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::wizard-3": {
+    "avgReward": -92,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.293Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::wizard-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.296Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::wizard-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.296Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::minion-3": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.300Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::minion-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.300Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::minion-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.301Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::bomber-3": {
+    "avgReward": -92,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.301Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::bomber-8": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.301Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::bomber-13": {
+    "avgReward": -108,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.302Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L2_C0_R0_N0::wait": {
+    "avgReward": -116,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.302Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::knight-3": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.478Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::knight-8": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.478Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::knight-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.479Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::archer-3": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.484Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::archer-8": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.484Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::archer-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.484Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::giant-3": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.485Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::giant-8": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.494Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::giant-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.494Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::wizard-3": {
+    "avgReward": 0,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.494Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::wizard-8": {
+    "avgReward": 42,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.494Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::wizard-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.494Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::minion-3": {
+    "avgReward": -16,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.495Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::minion-8": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.495Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::minion-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.496Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::bomber-3": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.496Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::bomber-8": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.496Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::bomber-13": {
+    "avgReward": -8,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.496Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e2_hHP4_aHP4_L2_C0_R0_N0::wait": {
+    "avgReward": -16,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.496Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::knight-3": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.498Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::knight-8": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.498Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::knight-13": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.498Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::archer-3": {
+    "avgReward": -62,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.499Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::archer-8": {
+    "avgReward": -62,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.499Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::archer-13": {
+    "avgReward": -42,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.499Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::giant-3": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.499Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::giant-8": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.500Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::giant-13": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.500Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::wizard-3": {
+    "avgReward": -12,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.501Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::wizard-8": {
+    "avgReward": -62,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.501Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::wizard-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.501Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::minion-3": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.501Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::minion-8": {
+    "avgReward": -70,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.502Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::minion-13": {
+    "avgReward": -60,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.502Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::bomber-3": {
+    "avgReward": -62,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.502Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::bomber-8": {
+    "avgReward": -62,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.503Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::bomber-13": {
+    "avgReward": -52,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.503Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP3_aHP4_L1_C0_R2_N1::wait": {
+    "avgReward": -78,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.504Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::knight-3": {
+    "avgReward": -180,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.504Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::knight-8": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.505Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::knight-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.505Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::archer-3": {
+    "avgReward": -172,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.505Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::archer-8": {
+    "avgReward": -192,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.508Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::archer-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.513Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::giant-3": {
+    "avgReward": -180,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.514Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::giant-8": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.514Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::giant-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.514Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::wizard-3": {
+    "avgReward": -172,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.515Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::wizard-8": {
+    "avgReward": -184,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.515Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::wizard-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.516Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::minion-3": {
+    "avgReward": -188,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.517Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::minion-8": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.518Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::minion-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.518Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::bomber-3": {
+    "avgReward": -172,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.518Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::bomber-8": {
+    "avgReward": -184,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.519Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::bomber-13": {
+    "avgReward": -200,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.519Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e3_hHP2_aHP4_L1_C2_R0_N2::wait": {
+    "avgReward": -208,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.520Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::knight-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.564Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::knight-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.564Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::knight-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.565Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::archer-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.565Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::archer-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.569Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::archer-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.570Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::giant-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.570Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::giant-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.571Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::giant-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.575Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::wizard-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.578Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::wizard-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.579Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::wizard-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.584Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::minion-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.584Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::minion-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.585Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::minion-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.585Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::bomber-3": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.586Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::bomber-8": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.589Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::bomber-13": {
+    "avgReward": -22,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.591Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e5_hHP3_aHP4_L1_C1_R0_N0::wait": {
+    "avgReward": -30,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.613Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C1_R1_N1::minion-3": {
+    "avgReward": -148,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.614Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C1_R1_N1::minion-8": {
+    "avgReward": -116,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.614Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C1_R1_N1::minion-13": {
+    "avgReward": -156,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.615Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP3_aHP4_L0_C1_R1_N1::wait": {
+    "avgReward": -156,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.617Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::knight-3": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.621Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::knight-8": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.628Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::knight-13": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.628Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::archer-3": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.629Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::archer-8": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.634Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::archer-13": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.635Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::minion-3": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.636Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::minion-8": {
+    "avgReward": -186,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.636Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::minion-13": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.636Z",
+    "sessions": [
+      "session_1775713459739"
+    ]
+  },
+  "e1_hHP2_aHP4_L0_C2_R0_N2::wait": {
+    "avgReward": -178,
+    "visitCount": 1,
+    "lastUpdated": "2026-04-09T05:44:20.637Z",
+    "sessions": [
+      "session_1775713459739"
     ]
   }
 }
